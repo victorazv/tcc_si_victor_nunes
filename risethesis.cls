@@ -3,7 +3,7 @@
 %% RiSE's latex template for thesis and dissertations
 %% http://risetemplate.sourceforge.net
 %%
-%% (c) 2010 Yguaratã Cerqueira Cavalcanti (yguarata@gmail.com)
+%% (c) 2010 YguaratÃ£ Cerqueira Cavalcanti (yguarata@gmail.com)
 %%          Vinicius Cardoso Garcia (vinicius.garcia@gmail.com)
 %%
 %% This document was initially based on UFPEThesis template, from Paulo Gustavo
@@ -11,7 +11,7 @@
 %%
 %% ACKNOWLEDGEMENTS
 %%
-%% We would like to thanks the RiSE's reasearchers community and the 
+%% We would like to thanks the RiSE's reasearchers community and the
 %% other students from Federal University of Pernambuco who contributed
 %% to the RiSE template development.
 
@@ -19,7 +19,7 @@
 %\input{aboutufpethesis.txt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% OPTIONS 
+%% OPTIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \DeclareOption{pt}{%
@@ -35,14 +35,14 @@
 
 \DeclareOption{twoside}{%
   \PassOptionsToClass{twoside}{book}}
- 
+
 \DeclareOption{print}{%
   \let\@scr=0}
 
 \DeclareOption{scr}{%
   \let\@scr=1%
   \PassOptionsToClass{dvipdfm}{book}}
-  
+
 \DeclareOption{bsc}{%
   \let\@degreetype=0}
 
@@ -57,13 +57,13 @@
 
 \DeclareOption{phd}{%
   \let\@degreetype=4}
-  
+
 \DeclareOption{singlespacing}{%
   \let\@linespacing=0}
-  
+
 \DeclareOption{onehalfspacing}{%
   \let\@linespacing=1}
-  
+
 \DeclareOption{doublespacing}{%
   \let\@linespacing=2}
 
@@ -80,7 +80,7 @@
 \RequirePackage{amsmath,amsfonts,amssymb,amsthm}
 \RequirePackage{calc}
 \RequirePackage{ifthen}
-%\RequirePackage[utf8]{inputenc}
+\RequirePackage[utf8]{inputenc}
 \RequirePackage{textcase}
 \RequirePackage{textcomp}
 \RequirePackage{url}
@@ -124,16 +124,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Language Independent
-% \gdef\@bachelordissertation{Trabalho de Graduação}
-% \gdef\@mastersdissertation{Dissertação de Mestrado}
-% \gdef\@phdqualifying{Monografia de Qualificação}
+% \gdef\@bachelordissertation{Trabalho de GraduaÃ§Ã£o}
+% \gdef\@mastersdissertation{DissertaÃ§Ã£o de Mestrado}
+% \gdef\@phdqualifying{Monografia de QualificaÃ§Ã£o}
 % \gdef\@phdproposal{Proposta de Tese de Doutorado}
 % \gdef\@phdthesis{Tese de Doutorado}
 % \gdef\@bachelordegree{Bacharel}
 % \gdef\@mastersdegree{Mestre}
 % \gdef\@phddegree{Doutor}
 \gdef\resumoname{Resumo} \gdef\abstrname{Abstract}
-\gdef\acronimoname{Lista de Acrônimos} \gdef\acronymname{List of Acronyms}
+\gdef\acronimoname{Lista de AcrÃ´nimos} \gdef\acronymname{List of Acronyms}
 \gdef\keywordsnamePT{Palavras-chave}
 \gdef\keywordsnameEN{Keywords}
 
@@ -141,9 +141,9 @@
 
 % Portuguese
 \if\@language0
-  \gdef\@bachelordissertation{Trabalho de Graduação}
-  \gdef\@mastersdissertation{Dissertação de Mestrado}
-  \gdef\@phdqualifying{Monografia de Qualificação}
+  \gdef\@bachelordissertation{Trabalho de GraduaÃ§Ã£o}
+  \gdef\@mastersdissertation{DissertaÃ§Ã£o de Mestrado}
+  \gdef\@phdqualifying{Monografia de QualificaÃ§Ã£o}
   \gdef\@phdproposal{Proposta de Tese de Doutorado}
   \gdef\@phdthesis{Tese de Doutorado}
   \gdef\@bachelordegree{Bacharel}
@@ -155,11 +155,11 @@
   \gdef\@femalecoadvisertitle{Co-Orientadora}
   \gdef\@notdefined{NÃƒO DEFINIDO}
   \gdef\acknowledgementsname{Agradecimentos}
-  \gdef\lstlistlistingname{Lista de Códigos Fonte}
-  \gdef\lstlistingname{Código Fonte}
+  \gdef\lstlistlistingname{Lista de CÃ³digos Fonte}
+  \gdef\lstlistingname{CÃ³digo Fonte}
   \gdef\@axiomname{Axioma}
   \gdef\@conjecturename{Conjectura}
-  \gdef\@defname{Definição}
+  \gdef\@defname{DefiniÃ§Ã£o}
   \gdef\@lemmaname{Lema}
   \gdef\@theoname{Teorema}
   \gdef\@propname{ProposiÃ§Ã£o}
@@ -168,15 +168,15 @@
   \gdef\@figurename{Figura}
   \gdef\@tablename{Tabela}
   \gdef\@equationame{equaÃ§Ã£o}
-  \gdef\@chaptername{Capítulo}
+  \gdef\@chaptername{CapÃ­tulo}
   \gdef\@textby{Por}
-  \gdef\@sectionname{Seção}
-  \gdef\@appendixname{Apêndice}
-  \newcommand\bibliographytocname{Referências Bibliográficas}
-  \renewcommand{\appendixtocname}{Apêndice}
-  \renewcommand{\appendixpagename}{Apêndice}
-  \gdef\@pagename{página}
-  \gdef\@listacronymname{Acrônimos}
+  \gdef\@sectionname{SeÃ§Ã£o}
+  \gdef\@appendixname{ApÃªndice}
+  \newcommand\bibliographytocname{ReferÃªncias BibliogrÃ¡ficas}
+  \renewcommand{\appendixtocname}{ApÃªndice}
+  \renewcommand{\appendixpagename}{ApÃªndice}
+  \gdef\@pagename{pÃ¡gina}
+  \gdef\@listacronymname{AcrÃ´nimos}
   \gdef\@colophontext{%
   \urlstyle{rm}%
   Este volume foi tipografado em \LaTeX\ na classe \textsf{RiSEThesis}
@@ -224,7 +224,7 @@
   This volume has been typeset in \LaTeX with the \textsf{UFPEThesis} class
   (\url{www.cin.ufpe.br/~paguso/ufpethesis}).
   \if\@scr1
-  For details about this document, click \Acrobatmenu{GeneralInfo}{here}. 
+  For details about this document, click \Acrobatmenu{GeneralInfo}{here}.
   \fi}
 \fi\fi
 
@@ -353,7 +353,7 @@
 \if\@language0
 Trabalho apresentado ao Programa de
 \@programpt\ do \if\@showdepartment1\@departmentpt\ \else\@institutept\ \fi
-da \@universitypt\ como requisito parcial para obtenção do
+da \@universitypt\ como requisito parcial para obtenÃ§Ã£o do
 grau de \@degree\ em \@majorfieldpt.
 \fi
 \if\@language1 %If language is English
@@ -376,7 +376,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
 \else\if\@linespacing2
   \doublespacing
 \fi\fi\fi
-  
+
 \setlength{\topmargin}{0mm}
 \setlength{\textheight}{\paperheight-\headheight-\headsep-\footskip-2in}
 \setlength{\oddsidemargin}{0mm}
@@ -449,7 +449,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
 \def\presentationpage{%
   \if@openright\cleardoublepage\else\clearpage\fi
   \thispagestyle{empty}
-  
+
 	\begin{figure}[ht]
 	\begin{minipage}[b]{2.2cm}
 	  \includegraphics[width=2.2cm]{ufpelogo}
@@ -563,7 +563,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
   %\onehalfspacing
   \gdef\@keywordsname{\keywordsnameEN}
   \chapter*{\abstrname}}
-  
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Keywords
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -610,7 +610,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
   \end{flushright}
   \normalfont\vskip2\baselineskip}
 
-  
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Table of contents
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -618,7 +618,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
  \renewcommand\tableofcontents{%
    \chapter*{\contentsname}
    \@starttoc{toc}}
- 
+
 \setcounter{tocdepth}{3}
 
 \renewcommand\listoffigures{%
@@ -651,44 +651,44 @@ requirements for the degree of \@degree\ in \@majorfielden.
 %% change the equation number appearance
 %% load up the AMS math package
  \RequirePackage{amsmath}
-% 
+%
 % %% load up the fancy box making package
  \RequirePackage{fancybox}
-% 
+%
 % %% make the equation numbers have little ovals around them
  \def\tagform@#1{\maketag@@@{\cornersize{0.8}\ovalbox{\ignorespaces\sffamily{#1}\unskip\@@italiccorr}}}
-% 
+%
 % %% Load up PS insertion package
  \RequirePackage{psboxit}
  \PScommands
-% 
+%
 % %% Load up fancy headers and footers package
  \RequirePackage{fancyhdr}
-% 
+%
 % %% now reset the headers and footers
  \fancyhead{}
  \fancyfoot{}
  \fancyhead[RO]{\sffamily \rightmark}
  \fancyhead[LE]{\sffamily \leftmark}
-% 
+%
 % %% put the page numbers on the bottom in a nice box
 % %% even side pages
  \fancyfoot[LE]{%
  	\rule{0cm}{4mm}\color{black}{ \thepage}
  }
-% 
+%
 % %% odd side pages
  \fancyfoot[RO]{
  	\hspace{\textwidth}\rule{0cm}{4mm}\color{black}{ \thepage}
  }
-% 
+%
 % %% make the bottom line above the page number box
 \renewcommand{\footrulewidth}{0.4pt}
 \renewcommand{\footruleskip}{0mm}
-% 
+%
 % %% bring the style into effect
  \pagestyle{fancy}
-% 
+%
 % %% now redefine the plain style pages (chapter pages, contents pages)
 % %% to have the same page number stuff on the bottom
 \fancypagestyle{plain}{
@@ -697,15 +697,15 @@ requirements for the degree of \@degree\ in \@majorfielden.
  \renewcommand{\headrulewidth}{0pt}
  \renewcommand{\footrulewidth}{0.5pt}
 }
-% 
-% 
+%
+%
 % %% now change the chapter style
 % %% load up the quotchap package
 \RequirePackage[avantgarde]{quotchap}
-% 
+%
 % %% make the quotation appear next to the chapter number
 \renewcommand\chapterheadstartvskip{\vspace*{-5\baselineskip}}
-% 
+%
 % %% now change the section heading to have a line beneath it
 % %% load up the fancy title-style package
 \RequirePackage[calcwidth]{titlesec}
@@ -715,7 +715,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \setcounter{secnumdepth}{4}
-% 
+%
 % \def\part{%
 % 	\if@openright\cleardoublepage\else\clearpage\fi
 %   \thispagestyle{empty}%
@@ -799,7 +799,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
 	{\slshape}% Body style
 	{0pt}% Heading indent amount
 	{\bfseries}{.}% Heading font and punctuation after it
-	{1ex plus 0pt minus .2ex}% Space after heading 
+	{1ex plus 0pt minus .2ex}% Space after heading
 	{}% Head spec (empty = same as ï¿½plainï¿½ style
 \theoremstyle{definition}
 \newtheorem{Def}{\@defname}[chapter]

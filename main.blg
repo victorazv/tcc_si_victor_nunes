@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: ieeetr.bst
+A level-1 auxiliary file: chapters/intro.aux
+A level-1 auxiliary file: chapters/referencial_teorico.aux
+Database file #1: references.bib
+Warning--can't use both author and editor fields in Chin2014
+Too many commas in name 1 of "Prathibhan, C.Mano; Malini, A.; Venkatesh, N.; Sundarakantham, K." for entry Prathibhan-2014
+while executing---line 969 of file ieeetr.bst
+Too many commas in name 1 of "Prathibhan, C.Mano; Malini, A.; Venkatesh, N.; Sundarakantham, K." for entry Prathibhan-2014
+while executing---line 969 of file ieeetr.bst
+Warning--empty booktitle in Prathibhan-2014
+Warning--empty booktitle in Huang-2012
+You've used 4 entries,
+            1876 wiz_defined-function locations,
+            508 strings with 4877 characters,
+and the built_in function-call counts, 979 in all, are:
+= -- 95
+> -- 20
+< -- 0
++ -- 9
+- -- 5
+* -- 61
+:= -- 133
+add.period$ -- 5
+call.type$ -- 4
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 58
+empty$ -- 111
+format.name$ -- 5
+if$ -- 240
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 5
+newline$ -- 16
+num.names$ -- 4
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 32
+stack$ -- 0
+substring$ -- 64
+swap$ -- 19
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 10
+width$ -- 5
+write$ -- 36
+(There were 2 error messages)
