@@ -1,9 +1,41 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Grafico-RedMonk}
+RedMonk, ``Gráfico de linguanges - redmonk.''
+  \url{http://redmonk.com/sogrady/2015/01/14/language-rankings-1-15/}, 2016.
+
+\bibitem{WebhostFace-PHP-Frameworks}
+W.~Face, ``Popular frameworks php 2015.''
+  \url{https://www.webhostface.com/blog/popular-php-frameworks-2015/}, 2016.
+
+\bibitem{GoogleTrends-Front-end-Frameworks}
+Google, ``Googletrends - frameworks front-ent mais buscados em 2015.''
+  \url{https://www.google.com.br/trends/explore#q=%2Fm%2F0j45p7w%2C%20backbone%2C%20ember.js%2C%20%2Fm%2F012l1vxv&date=1%2F2015%2012m&cmpt=q&tz=Etc%2FGMT%2B3},
+  2016.
+
+\bibitem{GoogleTrends-Mobile-hybrid-Frameworks}
+Google, ``Googletrends - frameworks mobile híbridos mais buscados em 2015.''
+  \url{https://www.google.com.br/trends/explore#q=ionic%2C%20intel%20xdk%2C%20%2Fm%2F06znsr5%2C%20phonegap&date=1%2F2015%2012m&cmpt=q&tz=Etc%2FGMT%2B3},
+  2016.
 
 \bibitem{Slone:2007:ITC:1229015.1229023}
 D.~J. Slone, ``The impact of time constraints on internet and web use: Research
   articles,'' {\em J. Am. Soc. Inf. Sci. Technol.}, vol.~58, pp.~508--517, Feb.
   2007.
+
+\bibitem{6248786}
+K.~W. Tracy, ``Mobile application development experiences on apple??s ios and
+  android os,'' {\em IEEE Potentials}, vol.~31, pp.~30--34, July 2012.
+
+\bibitem{dehlinger2011mobile}
+J.~Dehlinger and J.~Dixon, ``Mobile application software engineering:
+  Challenges and research directions,'' {\em Workshop on Mobile Software
+  Engineering}, vol.~2, pp.~2--2, 2011.
+
+\bibitem{6530464}
+N.~P. Huy and D.~van Thanh, ``Developing apps for mobile phones,'' in {\em
+  Computing and Convergence Technology (ICCCT), 2012 7th International
+  Conference on}, pp.~907--912, Dec 2012.
 
 \bibitem{Chin2014}
 E.~Chin and D.~Wagner, {\em Information Security Applications: 14th

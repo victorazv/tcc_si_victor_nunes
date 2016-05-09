@@ -11,13 +11,13 @@
 \contentsline {section}{\numberline {1.6}Fora de Escopo}{5}{section.1.6}
 \contentsline {section}{\numberline {1.7}Estrutura do Trabalho}{6}{section.1.7}
 \contentsline {chapter}{\numberline {2}Referencial Te\IeC {\'o}rico}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Sistemas de apoio \IeC {\`a} Gest\IeC {\~a}o Acad\IeC {\^e}mica}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Aplica\IeC {\c c}\IeC {\~o}es web}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}Aplica\IeC {\c c}\IeC {\~o}es para dispositivos m\IeC {\'o}veis}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}Desenvolvimento mobile}{9}{section.2.4}
-\contentsline {section}{\numberline {2.5}Aplicativos h\IeC {\'\i }bridos}{9}{section.2.5}
-\contentsline {section}{\numberline {2.6}Webviews}{10}{section.2.6}
-\contentsline {section}{\numberline {2.7}Aplicativos nativos X h\IeC {\'\i }bridos}{11}{section.2.7}
-\contentsline {section}{\numberline {2.8}Teste mobile}{11}{section.2.8}
-\contentsline {section}{\numberline {2.9}Ferramentas de teste}{12}{section.2.9}
-\contentsline {chapter}{Ap\IeC {\^e}ndice}{14}{section*.9}
+\contentsline {section}{\numberline {2.1}Aplica\IeC {\c c}\IeC {\~o}es web}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Aplica\IeC {\c c}\IeC {\~o}es para dispositivos m\IeC {\'o}veis}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Aplicativos Android}{8}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Aplicativos iOS}{9}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Aplicativos h\IeC {\'\i }bridos}{9}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Aplicativos nativos X h\IeC {\'\i }bridos}{10}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Teste mobile}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Ferramentas de teste mobile}{11}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Organiza\IeC {\c c}\IeC {\~a}o de processos}{11}{section.2.4}
+\contentsline {chapter}{Ap\IeC {\^e}ndice}{15}{section*.9}
