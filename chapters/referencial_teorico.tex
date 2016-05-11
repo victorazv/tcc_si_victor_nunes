@@ -11,19 +11,18 @@ A popularização do computador ganhou força e o tornou de fácil acesso para a
 Assim, teremos uma explanação de elementos que podem ser utilizados para elaborar soluções que complementem os processos de uma instituição, de acordo com os padrões atuais, que contemplam uma solução web e mobile multiplataforma, a fim de propor disponibilidade para a maior quantidade de usuários.
 
 
-Na seção \ref{sec:apps_web}, será apresentada uma discussão sobre aplicações web e a necessidade de usá-las na atualidade. A seção \ref{sec:apps_mobile} 
+Na seção \ref{sec:apps_web}, será apresentada uma discussão sobre aplicações web e a necessidade de usá-las na atualidade. A seção \ref{sec:apps_mobile} explana a forte tendência global da expansão dos smartphones, que por consequência, impulsiona o desenvolvimento de aplicativos. As subseções \ref{sub_sec:android_apps} e \ref{sub_sec:ios_apps} mostram detalhes do desenvolvimento das principais plataformas de dispositivos móveis do momento. Seguindo a tendência, a subseção \ref{sub_sec:hybrid_apps} mostra detalhes sobre os aplicativos híbridos, que atendem às mais diversas plataformas num único projeto.
+
+Como propõe o fluxo natural de um software, a seção \ref{sec:mobile_testing} apresenta aspectos de teste para o âmbito mobile. Finalizando o capítulo, a seção \ref{sec:process_organization} traz uma discussão sobre a organização de processos como o auxílio da tecnologia.
 
 
 \section{Aplicações web}\label{sec:apps_web}
 
 
-\cite{Slone:2007:ITC:1229015.1229023} Cita a importância do uso da internet na vida das pessoas. Esta, tornou-se um meio onde as informações são fortemente disseminadas, e nos faz gastar tempo nas mais diversas atividades, seja checar e-mail, realizar pesquisas de trabalho/estudo, ou lazer. Assim, tem-se que que popularização da web com um perfil de uso intenso do usuário ocorreu há mais de 10 anos, no por volta do ano 2000. E-mail, a vasta disponibilidade de informações para estudo e trabalho e aplicações sociais atraíram fortemente os usuários, colaborando com a expansão. 
+\cite{Slone:2007:ITC:1229015.1229023} Cita a importância do uso da internet na vida das pessoas. Esta, tornou-se um meio onde as informações são fortemente disseminadas, e nos faz gastar tempo nas mais diversas atividades, seja checar e-mail, realizar pesquisas de trabalho/estudo, ou lazer. Assim, tem-se que que popularização da web com um perfil de uso intenso do usuário ocorreu há mais de 10 anos, no por volta do ano 2000. Em âmbito global, redes sociais, mensageiros, motores de busca, sites de compartilhamento de vídeo e o e-commerce ajudaram fortemente na criação do perfil de usuário atual, que sempre quer estar conectado. 
 
 
-Assim como em muitos países, Brasil, redes sociais, mensageiros, motores de busca, sites de compartilhamento de vídeo e o e-commerce ajudaram fortemente na criação do perfil de usuário atual, que sempre quer estar conectado. 
-
-
-Novas tecnologias web foram revolucionando a usabilidade, assim como o Ajax que começou em 2005 e o HTML5 que começou a ser especificado em 2008. Diante dos avanços dos dispositivos eletrônicos e da necessidade da informação, cada vez mais desejamos que as aplicações que utilizamos estejam disponíveis de um modo mais otimizado. Junto com a difusão da web, tivemos a migração para a web dos sistemas de informação que sempre tiveram uma abordagem de funcionamento em desktop. Essa nova abordagem dos sistemas foi uma revolução, pois permitiu a descentralização da informação
+Para atender à fomentada demanda de aplicativos web, é necessário adotar métodos de desenvolvimentos que sejam ágeis, eficientes e de fácil manutenção. \cite{1372143} Propõe o uso do modelo MVC (Model, View e Controller) no atual desenvolvimento para softwares web. O modelo apresentado tornou-se um padrão popular e divide o software em camadas com propósito definido, tornando-o de mais fácil manutenção.]
 
 
 \section{Aplicações para dispositivos móveis}\label{sec:apps_mobile}
@@ -35,11 +34,10 @@ Durante o decorrer o texto, o popular termo mobile será utilizado para referenc
 \cite{6248786} Demonstra que o uso e desenvolvimento de aplicações mobile cresceu significativamente a partir do lançamento do iPhone e da popularização do Android. Os aplicativos móveis atualmente estão  evoluindo de forma intensa, e geralmente são direcionados para atender uma tarefa específica, fazendo uso intenso de dados de rede, e  de ferramentas como o Google Play Store ou Apple Store para a sua distribuição.
 
 
-Felizmente, essa precária situação da internet foi mudada. No Brasil, podemos notar isso na pesquisa do Pnad-IBGE que mostrou que em 2014, 54,4 porcento da população acima de nove anos teve acesso à internet, e 77,9 porcento dos brasileiros acima de nove anos teve acesso à internet através de um smartphone. Também evidenciamos esse fato pelas pesquisas da Juniper Research, que estimam que o mercado mobile entre 2009 e 2014 cresceu cerca de 8 porcento. Essa realidade de crescimento da área mobile continua crescente e impulsionando os desenvolvedores. 
+A realidade brasileira para o uso de smartphone é animadora para os desenvolvedores mobile. Os smartphones ultrapassaram os computadores e se tornaram os aparelhos preferidos do brasileiro para se conectar à internet em 2014, mostra a Pesquisa Nacional Por Amostra de Domicílios (Pnad), divulgada pelo Instituto Brasileira de Geografia e Estatística (IBGE). O fácil acesso à internet nos smartphones torna viável a aproximação de aplicações que anteriormente eram somente web, para o mundo mobile.
 
 
-O desenvolvimento de aplicações mobile pode ser realizado de algumas formas, a exemplo  de aplicações nativas, híbridas e webviews. 
-
+http://g1.globo.com/tecnologia/noticia/2016/04/smartphone-passa-pc-e-vira-aparelho-n-1-para-acessar-internet-no-brasil.html
 
 %\subsection{Aplicativos nativos}\label{sub_sec:native_apps}
 
@@ -55,24 +53,30 @@ O desenvolvimento de aplicações mobile pode ser realizado de algumas formas, a
 
 O desenvolvimento de aplicativos para a plataforma Android  tem algumas características específicas. Conforme é explanado em \cite{6248786}, para desenvolver, instalar o aplicativo num dispositivo e testá-lo, não tem custo para o desenvolvedor. Entretanto, para publicar o aplicativo na Google Play Store, é necessário registrar-se como desenvolverdor Android, que tem uma taxa de US\$25.
 O desenvolvimento Android é baseado na linguagem Java e pode ser realizado em ambiente Windows, Linux e Mac. Anteriormente, a ferramenta utilizada para desenvolver para Android era o Eclipse. Entretanto, em maio de 2013, a Google anunciou o Android Studio como ferramenta oficial na conferência Google I/O. A primeira compilação estável da ferramenta foi lançada em Dezembro de 2014, começando da versão 1.0.
-Como cito sites  assim?http://exame.abril.com.br/tecnologia/noticias/google-lanca-versao-1-0-do-ide-de-codigo-aberto-android-studio
+ 
+ 
+ http://exame.abril.com.br/tecnologia/noticias/google-lanca-versao-1-0-do-ide-de-codigo-aberto-android-studio
 
 
 \subsection{Aplicativos iOS}\label{sub_sec:ios_apps}
 
 
-A plataforma iOS da Apple, é baseada num modelo proprietário, com um estável  ambiente de desenvolvimento, o Xcode, próprio para o Mac OS X \cite{6248786}. A lingugagem anteriormente utilizada para desenvolver aplicativos era o Objective C. Entretanto, buscando tornar os aplicativos mais eficientes, o Objective C foi trocado em 2014 pela linguagem de programação Swift, criada pela Apple. Do mesmo modo que o Android, para disponibilizar aplicativos para a Apple Store, é necessário pagar uma taxa anual de US\$ 99 e registrar-se com a Apple. Durante a publicação de um aplicativo na App Store, a Apple também tem um processo mais exigente de validação de diversos requisitos do aplicativos antes de serem lançados na loja, a fim de manter a qualidade dos apps disponibilizados.
+A plataforma iOS da Apple, é baseada num modelo proprietário, com um estável  ambiente de desenvolvimento, o Xcode, próprio para o Mac OS X \cite{6248786}. A linguagem anteriormente utilizada para desenvolver aplicativos era o Objective C. Entretanto, buscando tornar os aplicativos mais eficientes, o Objective C foi trocado em 2014 pela linguagem de programação Swift, criada pela Apple. Do mesmo modo que o Android, para disponibilizar aplicativos para a Apple Store, é necessário pagar uma taxa anual de US\$ 99 e registrar-se com a Apple. Durante a publicação de um aplicativo na App Store, a Apple também tem um processo mais exigente de validação de diversos requisitos do aplicativos antes de serem lançados na loja, a fim de manter a qualidade dos apps disponibilizados.
 
 
 \subsection{Aplicativos híbridos}\label{sub_sec:hybrid_apps}
 
 
-\cite{dehlinger2011mobile} Citam como desafio para o desenvolvimento de aplicações móveis o reuso de software pelas plataformas, e a criação de um layout universal. Esse desafio se dá pela variedade de plataformas no mercado. e as suas particularidades até mesmo para a elaboração de layout.
-
-As aplicações híbridas tem um comportamento diferenciado desde o desenvolvimento, pois com um único código, podemos compilá-lo com uma ferramenta e assim obter instaladores com o mesmo conteúdo para diversas plataformas. \cite{6530464}, Sugerem que os aplicativos híbridos, baseados em HTML5, ainda que com limitações, é um recurso novo, leve e de desenvolvimento simples, assim, se tornando algo promissor.
+A diversidade de plataformas mobile é a inspiração para as ferramentas de desenvolvimento híbrido. O desenvolvimento de aplicações híbridas se dá através de frameworks que compilam e empacotam para a plataforma desejada o código web desenvolvido. 
 
 
-A diversidade de plataformas mobile é a inspiração para as ferramentas de desenvolvimento híbrido. O desenvolvimento de aplicações híbridas se dá através de frameworks que compilam e empacotam para a plataforma desejada o código web desenvolvido. Para obter acesso aos recursos nativos do aparelhos, normalmente os frameworks disponibilizam APIs que acessam os sensores dos dispositivos para prover as mais diversas funcionalidades. Dentre os muitos frameworks nessa linha de desenvolvimento, hoje temos em destaque o Cordova com os seus derivados, como o Phonegap, Ionic e Intel XDK, que se baseiam nas tecnologias HTML5, CSS3 e Javascript. Entretanto, cada um possui features diferenciadas para ajudar no desenvolvimento do projeto. Também devemos destacar o RhoMobile, que está significativamente presente no mercado e além das tecnologias utilizadas pela família do Cordova, também suporta a poderosa linguagem de programação Ruby.
+As aplicações híbridas tem um comportamento diferenciado desde o desenvolvimento, pois com um único código, podemos compilá-lo com uma ferramenta e assim obter instaladores com o mesmo conteúdo para diversas plataformas. \cite{6530464} Sugerem que os aplicativos híbridos, baseados em HTML5, ainda que com limitações, é um recurso novo, leve e de desenvolvimento simples, assim, se tornando algo promissor devido às características singulares que tornam um projeto menos custoso em tempo e orçamento.
+
+
+Ainda que o objetivo dos aplicativos híbridos seja homogeneizar o desenvolvimento, há particularidades das plataformas que tornam o desafio maior. \cite{dehlinger2011mobile} Citam como desafio para o desenvolvimento de aplicações móveis o reuso de software pelas plataformas, e a criação de um layout universal. Esse desafio se dá pela variedade de plataformas no mercado. e as suas particularidades até mesmo para a elaboração de layout.
+
+
+Para obter acesso aos recursos nativos do aparelhos, os frameworks disponibilizam APIs que acessam os sensores dos dispositivos para prover as mais diversas funcionalidades. Dentre os frameworks nessa linha, temos em destaque o Cordova\footnote{\url{https://cordova.apache.org/}} com os seus derivados, como o Phonegap\footnote{\url{http://phonegap.com/}}, Ionic\footnote{\url{http://ionicframework.com/}} e Intel XDK\footnote{\url{https://software.intel.com/pt-br/intel-xdk}}, que se baseiam nas tecnologias HTML5, CSS3 e Javascript. Cada um possui destes possui destaques para ajudar no desenvolvimento. Também deve-se destacar o RhoMobile\footnote{\url{http://rhomobile.com/}}, que está  presente no mercado e além das tecnologias utilizadas pela família do Cordova, suporta linguagem de programação Ruby.
 
 
 %\subsection{Aplicativos Webview}\label{sub_sec:webview_apps}
@@ -84,10 +88,10 @@ A diversidade de plataformas mobile é a inspiração para as ferramentas de des
 %Com uma aplicação responsiva na web, podendo ser em qualquer linguagem de programação, é possível empacotar o link da web de forma que para o usuário final transpareça ser um app normal. Entretanto, na verdade apenas temos um aplicativo de baixa complexidade que apenas exibe um endereço da web de forma otimizada. Devido ao fato de a maior parte dos smartphones já disponibilizarem um próprio navegador de internet como padrão, temos uma instabilidade nas webviews pois nem todos os navegadores estão preparados para interpretar as mais novas tendências da web, o que pode resultar numa exibição com páginas quebradas. Para resolver esse problema, é possível embarcar um desejado navegador junto com a aplicação webview, a fim de garantir a exibição do conteúdo da exatamente da forma como foi planejado. Devido ao fato de na verdade, a aplicação estar na web, não é possível o aplicativo em si tratar com especificidade a performance ou aplicar muitos testes. Com a aplicação web já testada e otimizada, apenas será necessário aplicar o dado conceito, pois a webview apenas aponta para um endereço web. Aplicativos que realizam webview podem ser desenvolvidos em plataforma nativa ou híbrida, deixando a escolha  a critério dos desenvolvedores. Como as webviews tem acesso limitado a recursos dos dispositivos, a escolha fica mais ligada à preferência. As característidas da webview, implicam num orçamento ainda mais reduzido.
 
 
-\subsection{Aplicativos nativos X híbridos}\label{sub_sec:nativosXhibridos}
+%\subsection{Aplicativos nativos X híbridos}\label{sub_sec:nativosXhibridos}
 
 
-Estabelecendo uma rápida comparação entre aplicativos nativos e híbridos, temos  características marcantes entre o desenvolvimento destas. Devido à possibilidade de obter um resultado para diversas plataformas com um único código, temos que as aplicações híbridas tem menor custo de desenvolvimento. Tendo extrema performance ou requisitos muito complexos, ou simplesmente não tendo tempo e orçamento como fator limitador de um projeto, temos aplicações nativas como melhor opção devido ao fato de não terem um fator limitador.
+%Estabelecendo uma rápida comparação entre aplicativos nativos e híbridos, temos  características marcantes entre o desenvolvimento destas. Devido à possibilidade de obter um resultado para diversas plataformas com um único código, temos que as aplicações híbridas tem menor custo de desenvolvimento. Tendo extrema performance ou requisitos muito complexos, ou simplesmente não tendo tempo e orçamento como fator limitador de um projeto, temos aplicações nativas como melhor opção devido ao fato de não terem um fator limitador.
 
 
 \section{Teste mobile}\label{sec:mobile_testing}
@@ -99,26 +103,31 @@ Estabelecendo uma rápida comparação entre aplicativos nativos e híbridos, te
 \cite{6248786} Cita a dificuldade de testar aplicativos de forma completa. Dada a variação de dispositivos, é difícil de testar em todos os dispositivos atuais. Assim, a mesma  diversidade de dispositivos que atrapalha o desenvolvimento de aplicativos, também torna os testes mais complicados. Devido aos diferentes comportamentos e layouts adotados pelos sistemas mobile, é preciso antes mesmo de pensar em testar, pensar em qual plataforma o teste será aplicado. Entretanto, independentemente da plataforma, um aplicativo tem aspectos básicos a serem testados, a exemplo de usabilidade, confiabilidade, portabilidade, desempenho e acessibilidade. Fora esse escopo, temos os testes funcionais da aplicação, que variam em cada caso.
 
 
-\cite{Huang-2012}, Evidenciam as vantagens do emprego do RMTS(Remote mobile test system), onde até mesmo usuários finais poderiam requisitar um smartphone para testar aplicativos, sem precisar de infraestrutura ou investir em diversos equipamentos, o que implica numa redução de custos com uma alternativa eficiente. 
+\cite{Huang-2012} Evidenciam as vantagens do emprego do RMTS(Remote mobile test system), onde até mesmo usuários finais poderiam requisitar um smartphone para testar aplicativos, sem precisar de infraestrutura ou investir em diversos equipamentos, o que implica numa redução de custos com uma alternativa eficiente. 
 
 
-O dado conceito consiste no envio do aplicativo para a nuvem, a fim de um servidor distribuir o aplicativo para ser testado em diversos dispositivos simultaneamente. Como determinados problemas podem somente aparecer num dado aparelho, este conceito ajuda bastante pois temos de forma automatizada o teste em inúmeros dispositivos. Com essas características, temos a possibilidade de reduzir o custo e complexidade para realizar teste em diversos dispositivos.
+O dado conceito consiste no envio do aplicativo para a nuvem, a fim de um servidor distribuir o aplicativo para ser testado em diversos dispositivos simultaneamente. Como determinados problemas podem somente aparecer num dado aparelho, este conceito ajuda bastante pois temos de forma automatizada o teste em inúmeros dispositivos. Com essas características, tem-se a possibilidade de reduzir o custo e complexidade para realizar teste em diversos dispositivos.
 
 
-\subsection{Ferramentas de teste mobile}\label{sub_sec:ferramentas_teste}
-
-
+%\subsection{Ferramentas de teste mobile}\label{sub_sec:ferramentas_teste}
 %O Calabash\footnote{\url{URL}} é uma ferramenta open source
-O Calabash é uma ferramenta open source que realiza testes automatizados em Android e iOS utilizando o conceito de MTAAS. É possível enviar aplicações para o servidor do Calabash para lá os testes serem executados em mais de mil dispositivos físicos. 
-Uma pesquisa recente da World Quality Report mostra que 35 porcento do orçamento de garantia de qualidade e teste está sendo gasto em mobile e canais de comunicação(interface) dos projetos. Assim, percebemos que a área mobile está crescendo e recebendo mais atenção para garantir uma melhor experiência dos usuários em geral.
-
-Assim como no desenvolvimento, para testes também existem ferramentas que englobam os principais sistemas operacionais mobile. O ainda novo conceito  MTAAS (Mobile testing as service), seguindo a tendência RMTS vem sendo disseminado no mercado em ferramentas a exemplo Calabash.
+O Calabash\footnote{\url{http://calaba.sh/}} é uma ferramenta open source que realiza testes automatizados em dispositivos Android e iOS utilizando o conceito de MTAAS(Mobile Testing as Service), que é similar ao RMTS. É possível enviar aplicações ao servidor do Calabash para lá os testes serem executados em mais de mil dispositivos físicos.
+%Uma pesquisa recente da World Quality Report mostra que 35 porcento do orçamento de garantia de qualidade e teste está sendo gasto em mobile e canais de comunicação(interface) dos projetos. Assim, percebemos que a área mobile está crescendo e recebendo mais atenção para garantir uma melhor experiência dos usuários em geral.
 
 
 \section{Organização de processos}\label{sec:process_organization}
 
 
-Sistemas de gestão acadêmica são comuns no mercado. A empresa Totvs, por exemplo, comercializa soluções para gestão acadêmica, que facilitam a organização dos processos e promove uma melhor interação da instituição com alunos e responsáveis. 
+A organização dos processos torna-se fundamental para manter o controle das informações. É ideal que os fluxos das atividades estam integrados, acelerando a dinâmica das informações e incentivando a colaboração dos envolvidos nos processos \cite{Berchet:2005:IDE:1195793.1672903}. 
 
 
-Também ligado à área e seguinto uma vertente diferenciada, temos o Moodle, um software livre que fornece um ambiente virtual de aprendizagem para os alunos, com diversas funcionalidades que podem integrar ainda mais as atividades dos alunos e professores. Devido à flexibilidade da licença do Moodle (GPL), as instituições podem implementar evoluções no software, a fim de adequá-lo às necessidades.
+O controle do fluxo pode se dar de diversas formas, desde papel até sistemas integrados. O crescimento exponencial em tecnologias e inovação impulsiona a transformação das organizações para uma nova mudança de paradigma. No cenário atual com apelo tecnológico, os sistemas ERP (Enterprise Resources Planning) oferecem uma ferramenta de gestão viável para ajudar as organizações \cite{Huin2004511}. Os ERP tem maior aplicabilidade para ambientes de grande porte, entretanto, a premissa de apoio à organização via sistemas se aplica a qualquer nível, diminuindo a perda de tempo e aumentando a produtividade, além de propor as informações de forma mais clara.
+
+
+Organizar setores exige planejamento, pois corre-se o risco de impor mais procedimentos que o necessário. \cite{Huin2004511} Também demonstra que a aplicação incorreta de procedimentos torna o trabalho custoso e ineficaz. E que os ambientes menores necessitam de mais cautela devido à menor quantidade de pessoas para executar o fluxo de atividdes.
+
+
+
+
+
+

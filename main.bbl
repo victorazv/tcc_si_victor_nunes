@@ -1,48 +1,44 @@
 \begin{thebibliography}{10}
 
 \bibitem{Grafico-RedMonk}
-RedMonk, ``Gráfico de linguanges - redmonk.''
-  \url{http://redmonk.com/sogrady/2015/01/14/language-rankings-1-15/}, 2016.
+RedMonk, ``Gráfico de linguanges - redmonk.'' \url{http://goo.gl/vDSGLx},
+  2016.
 
 \bibitem{WebhostFace-PHP-Frameworks}
-W.~Face, ``Popular frameworks php 2015.''
-  \url{https://www.webhostface.com/blog/popular-php-frameworks-2015/}, 2016.
+W.~Face, ``Popular frameworks php 2015.'' \url{https://goo.gl/DjUREE}, 2016.
 
 \bibitem{GoogleTrends-Front-end-Frameworks}
 Google, ``Googletrends - frameworks front-ent mais buscados em 2015.''
-  \url{https://www.google.com.br/trends/explore#q=%2Fm%2F0j45p7w%2C%20backbone%2C%20ember.js%2C%20%2Fm%2F012l1vxv&date=1%2F2015%2012m&cmpt=q&tz=Etc%2FGMT%2B3},
-  2016.
+  \url{https://goo.gl/VUhIrv}, 2016.
 
 \bibitem{GoogleTrends-Mobile-hybrid-Frameworks}
 Google, ``Googletrends - frameworks mobile híbridos mais buscados em 2015.''
-  \url{https://www.google.com.br/trends/explore#q=ionic%2C%20intel%20xdk%2C%20%2Fm%2F06znsr5%2C%20phonegap&date=1%2F2015%2012m&cmpt=q&tz=Etc%2FGMT%2B3},
-  2016.
+  \url{https://goo.gl/AhHznR}, 2016.
 
 \bibitem{Slone:2007:ITC:1229015.1229023}
 D.~J. Slone, ``The impact of time constraints on internet and web use: Research
   articles,'' {\em J. Am. Soc. Inf. Sci. Technol.}, vol.~58, pp.~508--517, Feb.
   2007.
 
+\bibitem{1372143}
+Y.~Ping, K.~Kontogiannis, and T.~C. Lau, ``Transforming legacy web applications
+  to the mvc architecture,'' in {\em Software Technology and Engineering
+  Practice, 2003. Eleventh Annual International Workshop on}, pp.~133--142,
+  Sept 2003.
+
 \bibitem{6248786}
 K.~W. Tracy, ``Mobile application development experiences on apple??s ios and
   android os,'' {\em IEEE Potentials}, vol.~31, pp.~30--34, July 2012.
-
-\bibitem{dehlinger2011mobile}
-J.~Dehlinger and J.~Dixon, ``Mobile application software engineering:
-  Challenges and research directions,'' {\em Workshop on Mobile Software
-  Engineering}, vol.~2, pp.~2--2, 2011.
 
 \bibitem{6530464}
 N.~P. Huy and D.~van Thanh, ``Developing apps for mobile phones,'' in {\em
   Computing and Convergence Technology (ICCCT), 2012 7th International
   Conference on}, pp.~907--912, Dec 2012.
 
-\bibitem{Chin2014}
-E.~Chin and D.~Wagner, {\em Information Security Applications: 14th
-  International Workshop, WISA 2013, Jeju Island, Korea, August 19-21, 2013,
-  Revised Selected Papers}, ch.~Bifocals: Analyzing WebView Vulnerabilities in
-  Android Applications, pp.~138--159.
-\newblock Cham: Springer International Publishing, 2014.
+\bibitem{dehlinger2011mobile}
+J.~Dehlinger and J.~Dixon, ``Mobile application software engineering:
+  Challenges and research directions,'' {\em Workshop on Mobile Software
+  Engineering}, vol.~2, pp.~2--2, 2011.
 
 \bibitem{Prathibhan-2014}
 A.~V. N. S.~K. Prathibhan, C.Mano;~Malini, ``[ieee 2014 international
@@ -58,5 +54,15 @@ Y.-z. Huang, Jun-fei;~Gong, ``[ieee 2012 ieee 4th international conference on
   (2012.12.3-2012.12.6)] 4th ieee international conference on cloud computing
   technology and science proceedings - remote mobile test system: a mobile
   phone cloud for application testing,'' 2012.
+
+\bibitem{Berchet:2005:IDE:1195793.1672903}
+C.~Berchet and G.~Habchi, ``The implementation and deployment of an erp system:
+  An industrial case study,'' {\em Comput. Ind.}, vol.~56, pp.~588--605, Aug.
+  2005.
+
+\bibitem{Huin2004511}
+S.~Huin, ``Managing deployment of \{ERP\} systems in \{SMEs\} using
+  multi-agents,'' {\em International Journal of Project Management}, vol.~22,
+  no.~6, pp.~511 -- 517, 2004.
 
 \end{thebibliography}
