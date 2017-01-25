@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{Grafico-RedMonk}
 RedMonk, ``Gráfico de linguanges - redmonk.'' \url{http://goo.gl/vDSGLx},
@@ -11,58 +11,27 @@ W.~Face, ``Popular frameworks php 2015.'' \url{https://goo.gl/DjUREE}, 2016.
 Google, ``Googletrends - frameworks front-ent mais buscados em 2015.''
   \url{https://goo.gl/VUhIrv}, 2016.
 
-\bibitem{GoogleTrends-Mobile-hybrid-Frameworks}
-Google, ``Googletrends - frameworks mobile híbridos mais buscados em 2015.''
-  \url{https://goo.gl/AhHznR}, 2016.
+\bibitem{LechesaSS11}
+M.~Lechesa, L.~F. Seymour, and J.~Schuler, ``Erp software as service (saas):
+  Factors affecting adoption in south africa.,'' in {\em CONFENIS} (C.~Møller
+  and S.~S. Chaudhry, eds.), vol.~105 of {\em Lecture Notes in Business
+  Information Processing}, pp.~152--167, Springer, 2011.
 
-\bibitem{Slone:2007:ITC:1229015.1229023}
-D.~J. Slone, ``The impact of time constraints on internet and web use: Research
-  articles,'' {\em J. Am. Soc. Inf. Sci. Technol.}, vol.~58, pp.~508--517, Feb.
-  2007.
+\bibitem{journals/corr/RaiSM13}
+R.~Rai, G.~Sahoo, and S.~Mehfuz, ``Securing software as a service model of
+  cloud computing: Issues and solutions.,'' {\em CoRR}, vol.~abs/1309.2426,
+  2013.
+
+\bibitem{La2009Systematic}
+H.~La and S.~Kim, ``{A Systematic Process for Developing High Quality SaaS
+  Cloud Services},'' in {\em Cloud Computing} (M.~Jaatun, G.~Zhao, and C.~Rong,
+  eds.), vol.~5931 of {\em Lecture Notes in Computer Science}, ch.~25,
+  pp.~278--289, Berlin, Heidelberg: Springer Berlin / Heidelberg, 2009.
 
 \bibitem{1372143}
 Y.~Ping, K.~Kontogiannis, and T.~C. Lau, ``Transforming legacy web applications
   to the mvc architecture,'' in {\em Software Technology and Engineering
   Practice, 2003. Eleventh Annual International Workshop on}, pp.~133--142,
   Sept 2003.
-
-\bibitem{6248786}
-K.~W. Tracy, ``Mobile application development experiences on apple??s ios and
-  android os,'' {\em IEEE Potentials}, vol.~31, pp.~30--34, July 2012.
-
-\bibitem{6530464}
-N.~P. Huy and D.~van Thanh, ``Developing apps for mobile phones,'' in {\em
-  Computing and Convergence Technology (ICCCT), 2012 7th International
-  Conference on}, pp.~907--912, Dec 2012.
-
-\bibitem{dehlinger2011mobile}
-J.~Dehlinger and J.~Dixon, ``Mobile application software engineering:
-  Challenges and research directions,'' {\em Workshop on Mobile Software
-  Engineering}, vol.~2, pp.~2--2, 2011.
-
-\bibitem{Prathibhan-2014}
-A.~V. N. S.~K. Prathibhan, C.Mano;~Malini, ``[ieee 2014 international
-  conference on advanced communication, control and computing technologies
-  (icaccct) - ramanathapuram, india (2014.5.8-2014.5.10)] 2014 ieee
-  international conference on advanced communications, control and computing
-  technologies - an automated testing framework for testing android mobile
-  applications in the cloud,'' 2014.
-
-\bibitem{Huang-2012}
-Y.-z. Huang, Jun-fei;~Gong, ``[ieee 2012 ieee 4th international conference on
-  cloud computing technology and science (cloudcom) - taipei
-  (2012.12.3-2012.12.6)] 4th ieee international conference on cloud computing
-  technology and science proceedings - remote mobile test system: a mobile
-  phone cloud for application testing,'' 2012.
-
-\bibitem{Berchet:2005:IDE:1195793.1672903}
-C.~Berchet and G.~Habchi, ``The implementation and deployment of an erp system:
-  An industrial case study,'' {\em Comput. Ind.}, vol.~56, pp.~588--605, Aug.
-  2005.
-
-\bibitem{Huin2004511}
-S.~Huin, ``Managing deployment of \{ERP\} systems in \{SMEs\} using
-  multi-agents,'' {\em International Journal of Project Management}, vol.~22,
-  no.~6, pp.~511 -- 517, 2004.
 
 \end{thebibliography}
