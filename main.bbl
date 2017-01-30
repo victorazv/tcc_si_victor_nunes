@@ -11,6 +11,12 @@ W.~Face, ``Popular frameworks php 2015.'' \url{https://goo.gl/DjUREE}, 2016.
 Google, ``Googletrends - frameworks front-ent mais buscados em 2015.''
   \url{https://goo.gl/VUhIrv}, 2016.
 
+\bibitem{La2009Systematic}
+H.~La and S.~Kim, ``{A Systematic Process for Developing High Quality SaaS
+  Cloud Services},'' in {\em Cloud Computing} (M.~Jaatun, G.~Zhao, and C.~Rong,
+  eds.), vol.~5931 of {\em Lecture Notes in Computer Science}, ch.~25,
+  pp.~278--289, Berlin, Heidelberg: Springer Berlin / Heidelberg, 2009.
+
 \bibitem{LechesaSS11}
 M.~Lechesa, L.~F. Seymour, and J.~Schuler, ``Erp software as service (saas):
   Factors affecting adoption in south africa.,'' in {\em CONFENIS} (C.~Møller
@@ -22,11 +28,16 @@ R.~Rai, G.~Sahoo, and S.~Mehfuz, ``Securing software as a service model of
   cloud computing: Issues and solutions.,'' {\em CoRR}, vol.~abs/1309.2426,
   2013.
 
-\bibitem{La2009Systematic}
-H.~La and S.~Kim, ``{A Systematic Process for Developing High Quality SaaS
-  Cloud Services},'' in {\em Cloud Computing} (M.~Jaatun, G.~Zhao, and C.~Rong,
-  eds.), vol.~5931 of {\em Lecture Notes in Computer Science}, ch.~25,
-  pp.~278--289, Berlin, Heidelberg: Springer Berlin / Heidelberg, 2009.
+\bibitem{7586486}
+H.~Chen, ``Architecture strategies and data models of software as a service: A
+  review,'' in {\em 2016 3rd International Conference on Informative and
+  Cybernetics for Computational Social Systems (ICCSS)}, pp.~382--385, Aug
+  2016.
+
+\bibitem{6949281}
+T.~Kaur, D.~Kaur, and A.~Aggarwal, ``Cost model for software as a service,'' in
+  {\em 2014 5th International Conference - Confluence The Next Generation
+  Information Technology Summit (Confluence)}, pp.~736--741, Sept 2014.
 
 \bibitem{1372143}
 Y.~Ping, K.~Kontogiannis, and T.~C. Lau, ``Transforming legacy web applications

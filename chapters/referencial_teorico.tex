@@ -6,21 +6,29 @@
  \section{Software como serviço}\label{sec:saas}
 
 
-Um trabalho recente realizado por Lechessa et al. \cite{LechesaSS11} apresenta uma pesquisa qualitativa sobre os fatores determinantes para adoção ou não de um SaaS voltado para ERP na África do Sul. Esses autores indicam que os principais fatores determinantes para adoção desse mecanismo de software são sua fluidez quanto à rede e a segurança. Esses fatores estão presentes na aplicação desenvolvidas neste trabalho de conclusão de curso.
+A definição de SaaS encontra-se muito bem elaborada em um dos trabalhos listados na literatura. Segundo La e Chun \citep{La2009Systematic}, o princípio da definição de Software como um Serviço (Sofware as a Service - SaaS) é um serviço complementar para aplicações da computação em nuvem (cloud computing). As duas áreas estão interligadas, no entanto, não se confundem, pois o SaaS deve ser entendido como um mecanismo de suporte às soluções existentes na cloud. Os SaaS existem justamente para maximizar o reuso de serviços repetidos e não centrais em uma aplicação remota.
+
+
+Como propõe vantanges, software como servico é uma tendência forte, isso graças à evolução da web. Diversos fatores podem ser favoráveis para a adoção de um Saas, como custo e manutenção dentre outros fatores aplicaveis a determinados contextos. Um trabalho recente realizado por Lechessa et al. \cite{LechesaSS11} apresenta uma pesquisa qualitativa sobre os fatores determinantes para adoção ou não de um SaaS voltado para ERP na África do Sul. Esses autores indicam que os principais fatores determinantes para adoção desse mecanismo de software são sua fluidez quanto à rede e a segurança. Esses fatores estão presentes na aplicação desenvolvidas neste trabalho de conclusão de curso.
  
 
-O artigo de \citep{journals/corr/RaiSM13} orienta como o avanço da computação em nuvem não é apenas um problema do ponto de vista da segurança, pois muitos trabalhos na literatura apenas a área apenas como mais um ponto de vulnerabilidade. Os autores de \citep{journals/corr/RaiSM13} realizaram estudos exploratórios junto a empresas usuárias de serviços em computação em nuvem e consideram que a perspectiva de SaaS também pode fortalecer a segurança nas aplicações de cloud computing, pois o software de autenticação compartilhado por várias aplicações em nuvem, oferece uma melhor padronização e consequente facilidade de prevenção a erros de vulnerabilidade específicas de cada módulo da pesquisa. Esse ponto de vista é muito importante para qualquer trabalho de ponta na área de SaaS.
+Devido ao fato de ter um serviço constantemente na nuvem, fica o questionamento sobre a segurança da informação manipulada. Sabe-se que a vulnerabilidade na web não é restrita ao Saas, atingindo diversos âmbitos. O artigo de \citep{journals/corr/RaiSM13} orienta como o avanço da computação em nuvem não é um problema apenas para os serviços web do ponto de vista da segurança, pois muitos trabalhos na literatura mostram a área como mais um ponto de vulnerabilidade para diversos setores, a exemplo de infraestrutura. Os autores de \citep{journals/corr/RaiSM13} realizaram estudos exploratórios junto a empresas usuárias de serviços em computação em nuvem e consideram que a perspectiva de SaaS também pode fortalecer a segurança nas aplicações de cloud computing, pois o software de autenticação compartilhado por várias aplicações em nuvem, oferece uma melhor padronização e consequente facilidade de prevenção a erros de vulnerabilidade específicas de cada módulo da pesquisa. Esse ponto de vista é muito importante para qualquer trabalho de ponta na área de SaaS.
 
 
-A definição de SaaS encontra-se muito bem elaborada em um dos trabalhos listados na literatura. Segundo La e Chun \citep{La2009Systematic}, o princípio da definição de Software como um Serviço (Sofware as a Service - SaaS) é um serviço complementar para aplicações da computação em nuvem (cloud computing). As duas áreas estão interligadas, no entanto, não se confundem, pois o SaaS deve ser entendido como um mecanismo de suporte às soluções existentes na cloud. Os SaaS existem justamente para maximizar o reuso de serviços repetidos e não centrais em uma aplicação remota.
+A arquitetura de armazenamento de dados de um Saas pode variar de acordo com a necessidade do contexto. O artigo de \citep{7586486} exemplifica possíveis modelagens para utilizar. Tal abordagem pode ser com um banco de dados único, fazendo com que diferentes clientes compartilhem o mesmo banco, diferindo os dados através de controle de usuário, ou isolando os diferentes clientes através de bancos de dados exclusivos para cada um. Tal fator também pode ser combinado com a arquitetura da aplicação, caso ofereça aplicação única para todos os clientes ou aplicação compartilhada. Diante das possíveis abprdagens, a modelagem de dados do software pode ser decidida pela regra de negócio. Este trabalho optou por aplicação única e banco de dados compartilhado.
+
+
+Devido ao diferente conceito de obtenção de software, tanto pela visão do cliente como pela visão do vendedor, é necessário tomar conhecimento dos diversos fatores que podem ser relevantes ao orçar um Saas. O artigo de \citep{6949281} orienta um modelo para compor o custo de um Saas. O custo total seria composto pelos fatores que dão suporte ao funcionamento do software. Tais fatores incluem infra-estrutura, configurabilidade, customização, parâmetros de QoS(Quality of service) como escalabilidade, disponibilidade, usabilidade, pontualidade e desempenho da resposta, portabilidade, custo total de propriedade e retorno do investimento. Esses fatores caracterizam o custo de forma eficaz, possibilitando ao fornecedor, prover um Serviço de acordo com a exigência do consumidor em vários pacotes de serviços.
+
+
+\section{Reuso de software}\label{sec:reuso}
+
+
+\section{Modularização}\label{sec:modularizacao}
 
 
 \section{Aplicações web}\label{sec:apps_web}
 
 
-Para atender à fomentada demanda de aplicativos web, é necessário adotar métodos de desenvolvimentos que sejam ágeis, eficientes e de fácil manutenção. \cite{1372143} Propõe o uso do modelo MVC (Model, View e Controller) no atual desenvolvimento para softwares web. O modelo apresentado tornou-se um padrão popular e divide o software em camadas com propósito definido, tornando-o de mais fácil manutenção.]
-
-
-\section{}\label{sec:}
-
+Para atender à fomentada demanda de aplicativos web, é necessário adotar métodos de desenvolvimentos que sejam ágeis, eficientes e de fácil manutenção. \cite{1372143} Propõe o uso do modelo MVC (Model, View e Controller) no atual desenvolvimento para softwares web. O modelo apresentado tornou-se um padrão popular e divide o software em camadas com propósito definido, tornando-o de mais fácil manutenção.
 
