@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Grafico-RedMonk}
 RedMonk, ``Gráfico de linguanges - redmonk.'' \url{http://goo.gl/vDSGLx},
@@ -39,10 +39,30 @@ T.~Kaur, D.~Kaur, and A.~Aggarwal, ``Cost model for software as a service,'' in
   {\em 2014 5th International Conference - Confluence The Next Generation
   Information Technology Summit (Confluence)}, pp.~736--741, Sept 2014.
 
+\bibitem{6783445}
+R.~Keswani, S.~Joshi, and A.~Jatain, ``Software reuse in practice,'' in {\em
+  2014 Fourth International Conference on Advanced Computing Communication
+  Technologies}, pp.~159--162, Feb 2014.
+
+\bibitem{7062705}
+D.~Wickramaarachchi and R.~Lai, ``Software modularization in global software
+  development,'' in {\em 2014 International Conference on Data and Software
+  Engineering (ICODSE)}, pp.~1--6, Nov 2014.
+
+\bibitem{7813710}
+S.~R. Kumar, R.~Sharma, and K.~Gupta, ``Strategies for web application
+  development methodologies,'' in {\em 2016 International Conference on
+  Computing, Communication and Automation (ICCCA)}, pp.~160--165, April 2016.
+
 \bibitem{1372143}
 Y.~Ping, K.~Kontogiannis, and T.~C. Lau, ``Transforming legacy web applications
   to the mvc architecture,'' in {\em Software Technology and Engineering
   Practice, 2003. Eleventh Annual International Workshop on}, pp.~133--142,
   Sept 2003.
+
+\bibitem{6845605}
+J.~Yuping, ``Research and application of ajax technology in web development,''
+  in {\em 2014 IEEE Workshop on Electronics, Computer and Applications},
+  pp.~256--260, May 2014.
 
 \end{thebibliography}

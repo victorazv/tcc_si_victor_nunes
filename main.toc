@@ -13,21 +13,21 @@
 \contentsline {chapter}{\numberline {2}Referencial Te\IeC {\'o}rico}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Software como servi\IeC {\c c}o}{7}{section.2.1}
 \contentsline {section}{\numberline {2.2}Reuso de software}{8}{section.2.2}
-\contentsline {section}{\numberline {2.3}Modulariza\IeC {\c c}\IeC {\~a}o}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}Aplica\IeC {\c c}\IeC {\~o}es web}{8}{section.2.4}
-\contentsline {chapter}{\numberline {3}Proposta}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Objetivo}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Problema}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Solu\IeC {\c c}\IeC {\~a}o}{9}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Arquitetura da aplica\IeC {\c c}\IeC {\~a}o}{10}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Tecnologias utilizadas}{11}{subsection.3.3.2}
-\contentsline {subsubsection}{Laravel framework}{11}{subsubsection*.8}
-\contentsline {subsubsection}{AngularJs}{11}{subsubsection*.9}
-\contentsline {subsubsection}{Bootstrap}{12}{subsubsection*.10}
-\contentsline {subsection}{\numberline {3.3.3}Diagramas UML}{12}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Funcionalidades}{12}{subsection.3.3.4}
-\contentsline {subsubsection}{Requisitos n\IeC {\~a}o funcionais}{12}{subsubsection*.11}
-\contentsline {subsubsection}{Requisitos funcionais}{12}{subsubsection*.12}
-\contentsline {subsection}{\numberline {3.3.5}Processo}{16}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}O que h\IeC {\'a} de novo ?}{16}{subsection.3.3.6}
-\contentsline {chapter}{Ap\IeC {\^e}ndice}{20}{section*.14}
+\contentsline {section}{\numberline {2.3}Modulariza\IeC {\c c}\IeC {\~a}o}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Aplica\IeC {\c c}\IeC {\~o}es web}{10}{section.2.4}
+\contentsline {chapter}{\numberline {3}Proposta}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Objetivo}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Problema}{11}{section.3.2}
+\contentsline {section}{\numberline {3.3}Solu\IeC {\c c}\IeC {\~a}o}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Arquitetura da aplica\IeC {\c c}\IeC {\~a}o}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Tecnologias utilizadas}{13}{subsection.3.3.2}
+\contentsline {subsubsection}{Laravel framework}{13}{subsubsection*.8}
+\contentsline {subsubsection}{AngularJs}{13}{subsubsection*.9}
+\contentsline {subsubsection}{Bootstrap}{14}{subsubsection*.10}
+\contentsline {subsection}{\numberline {3.3.3}Diagramas UML}{14}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Funcionalidades}{14}{subsection.3.3.4}
+\contentsline {subsubsection}{Requisitos n\IeC {\~a}o funcionais}{14}{subsubsection*.11}
+\contentsline {subsubsection}{Requisitos funcionais}{14}{subsubsection*.12}
+\contentsline {subsection}{\numberline {3.3.5}Processo}{18}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}O que h\IeC {\'a} de novo ?}{18}{subsection.3.3.6}
+\contentsline {chapter}{Ap\IeC {\^e}ndice}{23}{section*.14}
