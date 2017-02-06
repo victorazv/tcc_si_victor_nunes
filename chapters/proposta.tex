@@ -1,37 +1,30 @@
 \chapter{Proposta}
 
 
-\section{Objetivo}\label{sec:objetivos} %de forma abrangente
-
-
 Seguir padrão em desenvolvimento de software é uma premissa básica, pois ao trabalhar com variações dentro de uma organização, a tendência é gerar confusão. Assim, o objetivo deste trabalho é formular um módulo padrão de permissões de acesso, de modo que o mesmo possa ser utilizado por diferentes plataformas, como desktop, web e mobile, eliminando assim este módulo do desenvolvimento de um software e utilizando o trabalho proposto como um Saas provedor das permissões do software cliente a ser desenvolvido.
-
-
-\section{Problema}\label{sec:problema}
 
 
 É bastante comum encontrar frameworks de desenvolvimento de software que automaticamente geram um esquema de configuração de módulos com os perfis de acesso. Entretanto, apesar de ser um facilitador, tal política pode se tornar confusa em algus cenários, a exemplo de uma empresa que trabalha com sistemas sob encomenda, onde o cliente pode até mesmo determinar a linguagem ou framework de desenvolvimento. Nesse caso, a empresa teria que treinar os seus colaboradores a configurar os softwares para cada uma das ferramentas utilizadas, podendo gerar uma confusão.
 
 
-\section{Solução}\label{sec:solucao}
-
-
 Diante da possibilidade de manter a configuração dos sistemas de uma mesma instituição com diferentes módulos de permissão, seria ideal que todos os softwares utilizassem um mesmo módulo de configuração de persmissão de acesso, para que esta parte comum, presente na maioria dos softwares, fosse padronizada.
 
 
-\subsection{Arquitetura da aplicação}
+\section{Arquitetura da aplicação}
 
 
 A aplicação desenvolvida neste trabalho foi arquitetada com o modelo SPA(Single page application) utilizando o AngularJs. Tal arquitetura se tornou tão popular quanto o famoso MVC (Model-View-Controller), e é bastante usada em aplicações web e mobile. SPA basicamente significa codificar menos no server-side e mais no client-side. Assim, boa parte da aplicação passa a ser processada no cliente (dentro do navegador Web).
 
 
 Vantagens da SPA:
-1 – Balanceamento da responsabilidade da execução entre cliente e servidor.
-2 – Menos código do servidor, e mais responsabilidade no cliente;
-3 – Melhorar a experiência ao usuário (UX) criando interface com usabilidade moderna e de fácil entendimento do usuário;
-4 – Menor consumo de banda, pois as cargas de dados são feitas por demanda e por AJAX.
+\begin{itemize}
 
+\item Balanceamento da responsabilidade da execução entre cliente e servidor.
+\item Menos código do servidor, e mais responsabilidade no cliente;
+\item Melhorar a experiência ao usuário (UX) criando interface com usabilidade moderna e de fácil entendimento do usuário;
+\item Menor consumo de banda, pois as cargas de dados são feitas por demanda e por AJAX.
 
+\end{itemize}
 O grande ator de app SPA é o código Javascript executado no cliente. Toda a aplicação pode ser construída simplesmente manipulando o DOM – Document Object Model de forma nativa, ou com o uso de bibliotecas e frameworks Javascript que auxiliam na construção da aplicação. Estas bibliotecas e frameworks fornecem recursos para manipulação dinâmica do DOM, definição de templates de tela, chamadas assincronas ao servidor, organização do código Javascript, etc. Dentres as diversas bibliotecas Javascript disponíveis no momento, as mais difundidas na comunidade de progamadores estão: AngularJs, VueJs, Backbone, ReactJs, Ember e outras.
 
 
@@ -76,9 +69,9 @@ Bootstrap é um popular framework front-end que facilita a criação de sites co
 O Bootstrap possui diversos componentes (plugins) em JavaScript (jQuery) que auxiliam o desenvolvedor a implementar, menu-dropdown, modal, carousel, slideshow, entre outros com facilidade, apenas acrescentando algumas configurações no código.
 
 
-\subsection{Diagramas UML} %Caso de uso, classe, XXX
+\subsection{Diagramas UML}
 
-
+%retirar o login e colocar o numero do UC. e referenciar no requisito.
 \begin{figure}
 	\label{fig:Diagrama de caso de uso}
 	\includegraphics[width=1\textwidth]{img/Diagrama_de_caso_de_uso}
@@ -105,89 +98,110 @@ A fim de apresentar as funcionalidades do sistema proposto, nesta seção serão
 \subsubsection{Requisitos não funcionais}
 
 
-RN01: Usuários Simultâneos
+
+\begin{itemize}
+	
+	
+\item RN01: Usuários Simultâneos
+
+
 Descrição: O sistema deverá suportar processamento multiusuário, ou seja, vários usuários poderão utilizar o sistema simultaneamente. 
 
 
-RN02: Segurança 
+\item RN02: Segurança 
+
+
 Descrição: O sistema só permitirá acesso aos dados com autorização. Os usuários deverão se identificar usando um login e uma senha, e a referida senha será criptografada no banco de dados.
 
 
-RN03: Alta disponibilidade 
+\item RN03: Alta disponibilidade 
+
+
 Descrição: O sistema deverá ter disponibilidade de aproximadamente 99 porcento do tempo. 
 
 
-RN04: Desempenho 
+\item RN04: Desempenho
+
+
 Descrição: Os tempos de resposta das consultas não devem ultrapassar 3 segundos.
 
+
+\end{itemize}
+	
 
 \subsubsection{Requisitos funcionais}
 
 
-RF 01: Login
+\begin{itemize}
+	
+	
+\item RF 01: Login
 
 
 Descrição: O sistema deve conter tela de login com os campos email e senha. Após inserção dos dados, o sistema deve validar os dados e caso positivo, encaminhar o usuário ao sistema. Caso os dados sejam inválidos, exibir mensagem de erro para o usuário.
 
 
-RF 02: Edição de usuário
+\item RF 02: Edição de usuário
 
 
-Descrição: O sistema deve conter um formulário que seja carregado com os dados do usuário da sessão e permitir a atualização dos dados.
-
-RF 03: Cadastro de cliente
+Descrição: O sistema deve conter um formulário que seja carregado com os dados do usuário da sessão e permitir a atualização dos dados. Este caso de uso está relacionado ao UC01.
 
 
-Descrição: O sistema deve conter um formulário para cadastro de clientes. Após a inserção de um registro, o sistema deve automaticamente exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os clientes cadastrados para o usuário da sessão.
+\item RF 03: Cadastro de cliente
 
 
-RF 04: Cadastro de sistema
+Descrição: O sistema deve conter um formulário para cadastro de clientes. Após a inserção de um registro, o sistema deve automaticamente exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os clientes cadastrados para o usuário da sessão. Este caso de uso está relacionado ao UC02.
 
 
-Descrição: O sistema deve conter um formulário para cadastro de sistemas. Após a inserção de um registro, o sistema deve automaticamente exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os sistemas cadastrados para o usuário da sessão.
+\item RF 04: Cadastro de sistema
 
 
-RF 05: Cadastro de módulo
+Descrição: O sistema deve conter um formulário para cadastro de sistemas. Após a inserção de um registro, o sistema deve automaticamente exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os sistemas cadastrados para o usuário da sessão. Este caso de uso está relacionado ao UC03.
 
 
-Descrição: O sistema deve conter um formulário para cadastro de módulos. Após a inserção de um registro, o sistema deve automaticamente exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os módulos cadastrados para o usuário da sessão.
+\item RF 05: Cadastro de módulo
 
 
-RF 06: Cadastro de perfil
+Descrição: O sistema deve conter um formulário para cadastro de módulos. Após a inserção de um registro, o sistema deve automaticamente exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os módulos cadastrados para o usuário da sessão. Este caso de uso está relacionado ao UC04.
 
 
-Descrição: O sistema deve conter um formulário para cadastro de perfil. Após a inserção de um registro, o sistema deve automaticamente exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os perfils cadastrados para o usuário da sessão.
+\item RF 06: Cadastro de perfil
 
 
-RF 07: Cadastro associativo de cliente aos sistemas
+Descrição: O sistema deve conter um formulário para cadastro de perfil. Após a inserção de um registro, o sistema deve automaticamente exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os perfils cadastrados para o usuário da sessão. Este caso de uso está relacionado ao UC05.
 
 
-Descrição: O sistema deve conter um formulário para cadastro associativo de clientes a sistemas. Após a inserção de um registro, o sistema deve automaticamente gerar uma chave de acesso do dado registro para o usuário consultar permissões e exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os registros associativos de clientes aos sistemas cadastrados para o usuário da sessão.
+\item RF 07: Cadastro associativo de cliente aos sistemas
 
 
-RF 08: Cadastro associativo de  sistemas aos módulos
+Descrição: O sistema deve conter um formulário para cadastro associativo de clientes a sistemas. Após a inserção de um registro, o sistema deve automaticamente gerar uma chave de acesso do dado registro para o usuário consultar permissões e exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os registros associativos de clientes aos sistemas cadastrados para o usuário da sessão. Este caso de uso está relacionado ao UC09.
 
 
-Descrição: O sistema deve conter um formulário para cadastro associativo de sistemas a módulos. Após a inserção de um registro, o sistema deve automaticamente gerar uma chave de acesso do dado registro para o usuário consultar permissões e exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os registros associativos de  sistemas aos módulos cadastrados para o usuário da sessão.
+\item RF 08: Cadastro associativo de  sistemas aos módulos
 
 
-RF 09: Cadastro de funcionalidade dos módulos
+Descrição: O sistema deve conter um formulário para cadastro associativo de sistemas a módulos. Após a inserção de um registro, o sistema deve automaticamente gerar uma chave de acesso do dado registro para o usuário consultar permissões e exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os registros associativos de  sistemas aos módulos cadastrados para o usuário da sessão. Este caso de uso está relacionado ao UC08.
 
 
-Descrição: O sistema deve conter um formulário para cadastro de funcionalidade dos módulos já cadastrados. Após a inserção de um registro, o sistema deve automaticamente gerar uma chave de acesso do dado registro para o usuário consultar permissões e exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os registros de funcionalidades cadastradas para o usuário da sessão.
+\item RF 09: Cadastro de funcionalidade dos módulos
 
 
-RF 10: Composição de permissão para os módulos dos clientes
+Descrição: O sistema deve conter um formulário para cadastro de funcionalidade dos módulos já cadastrados. Após a inserção de um registro, o sistema deve automaticamente gerar uma chave de acesso do dado registro para o usuário consultar permissões e exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os registros de funcionalidades cadastradas para o usuário da sessão. Este caso de uso está relacionado ao UC06.
 
 
-Descrição: O sistema deve conter um formulário para cadastro associativo de permissão para os módulos dos clientes. Após a inserção de um registro, o sistema deve automaticamente exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os registros associativos de permissão cadastrados para o usuário da sessão.
+\item RF 10: Composição de permissão para os módulos dos clientes
 
 
-RF 11: Endpoint
+Descrição: O sistema deve conter um formulário para cadastro associativo de permissão para os módulos dos clientes. Após a inserção de um registro, o sistema deve automaticamente exibir o registro em formato de edição e conter botão para ir a uma consulta que liste os registros associativos de permissão cadastrados para o usuário da sessão. Este caso de uso está relacionado ao UC07.
 
 
-Descrição: O sistema deve disponibilizar uma URL para receber uma requisição via post, onde o deve receber um parâmetro "key", contendo a chave de acesso desejada para consultar as permissões cadastradas. Ao realizar a requisiçao enviando a "key", o sistema deve retornar um texto no formato Json, contendo os dados das permissões que foram compostas no sistema pelo usuário. A chave enviada pelo usuário pode ser de qualquer um dos níveis de configuração realizado no sistema e o o endpoint deve retornar a resposta sempre num mesmo formato, viabilizando um tratamento único da resposta pelo cliente.
+\item RF 11: Endpoint
 
+
+Descrição: O sistema deve disponibilizar uma URL para receber uma requisição via post, onde o deve receber um parâmetro "key", contendo a chave de acesso desejada para consultar as permissões cadastradas. Ao realizar a requisiçao enviando a "key", o sistema deve retornar um texto no formato Json, contendo os dados das permissões que foram compostas no sistema pelo usuário. A chave enviada pelo usuário pode ser de qualquer um dos níveis de configuração realizado no sistema e o o endpoint deve retornar a resposta sempre num mesmo formato, viabilizando um tratamento único da resposta pelo cliente. Este caso de uso está relacionado ao UC10.
+
+
+\end{itemize}
 
 \subsection{Processo}
 
@@ -195,9 +209,12 @@ Descrição: O sistema deve disponibilizar uma URL para receber uma requisição
 Para melhor compreensão do sistema proposto, abaixo temos um diagrama BPMN do processo do software.
 
 
-\begin{figure}
+\begin{figure} %\landscape 
+	\vspace*{-2cm}
+	\makebox[\linewidth]{
+		\includegraphics[width=1.3\linewidth]{img/diagrama_bpmn}
+	}
 	\label{fig:diagramaBpmn}
-	\includegraphics[width=1\textwidth]{img/diagrama_bpmn}
 	\caption{Diagrama do processo(BPMN) do software em questão}
 \end{figure}
 
