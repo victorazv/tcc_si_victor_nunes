@@ -1,8 +1,11 @@
 \chapter{Referencial Teórico}
-%texto introdutório de 2 paragrafos
+
+
+Projetar o desenvolvimento de um software requer muito planejamento, pois as falhas iniciais podem custar bastante caro ou até mesmo inviabilizar a continuação de um projeto. Assim, a escolha da arquitetura ideal para a aplicabilidade é essencial na concepção de um produto de software. 
+De todo o modo, sempre busca-se fazer mais com menos. Diante de tal filosofia, temos nesta seção, uma breve discussão sobre alguns elementos de projeto e arquitetura de software, a fim de contextualizar este trabalho de conclusão de curso.
+
 
 % Ser direto no começo, focando no que realmente será discutido A seção \ref{sec:apps_mobile} 
-%A modularização de um software traz diversos benefícios para o desenvolvimento e manutenção do mesmo. 
  \section{Software como serviço}\label{sec:saas}
 
 
@@ -24,14 +27,74 @@ Devido ao diferente conceito de obtenção de software, tanto pela visão do cli
 \section{Reuso de software}\label{sec:reuso} %CRUISE BOOK CAPITULO 2
 
 
-O objetivo da reutilização de software é reciclar o design, código e outros componentes de um produto de software e assim reduzir o custo, o tempo e melhorar a qualidade do produto.
+Para Peter Freeman, o reuso é a utilização de qualquer informação que um desenvolvedor pode necessitar no processo de criação de software (Ezran et al., 2002). Basili e Rombach definem reutilização de software como o uso de tudo o que está associado a um projeto de conhecimento (Basili e Rombach, 1991).
+Assim, o objetivo da reutilização de software é reciclar o design, código e outros componentes de um produto de software e assim reduzir o custo, o tempo e melhorar a qualidade do produto.
 Segundo Keswani et al. \cite{6783445}, o componente reutilizável de software pode ser qualquer parte de seu desenvolvimento, como um fragmento de código, design, casos de teste, ou até mesmo a especificação de requisitos de uma funcionalidade do software. 
-A reutilização reduz os esforços e custos, que podem ser altos, fazendo com que o valor estimado para determinada funcionalidade possa ser rateado. Um benefício importante ao reutilizar software é que tal prática pode ajudar a reduzir significativamente o número de bugs. 
-Outra diretriz importante para a reutilização de software é reduzir o risco na criação de novos softwares. O risco tende a ser bastante reduzido se os componentes que estão sendo reutilizados têm as documentação, interfaces necessárias e devidamente testadas, fatores que contibruem para uma fácil integração.
-De acordo com Keswani et al. \citep{6783445}, para o reuso de software dar retornos apropriados, o processo deve ser sistemático e planejado. Qualquer organização que implemente a reutilização de software deve identificar os melhores métodos e estratégias de reutilização para obter a máxima produtividade. A reutilização de software ajuda a evitar software de engenharia a partir do zero, pois usa módulos de software existentes. A reutilização de software, embora seja uma tarefa difícil, especialmente para softwares antigos sem padrões de projeto, pode melhorar significativamente a produtividade e a qualidade de um produto de software. Embora a reutilização de software não seja um novo campo, ela pode dar grandes retornos em curto período de tempo.
+
+O reuso de software pode ter impacto positivo em diversos aspectos do software, vejamos alguns, conforme apresentados no C.R.U.I.S.E Book:
+
+\begin{itemize}
+
+\item Qualidade: As correções de erro tornam-se úteis em todos os locais em que ocorreu, padronizando e facilitando a manutenção.
+
+\item Produtividade: O ganho de produtividade é alcançado devido ao menor número de artefatos desenvolvido. Isso resulta em menos esforços de teste e também economiza análise e design, gerando economia em diversos escopos do projeto.
+
+\item Confiabilidade: A utilização de componentes bem testados aumenta a
+confiança no software. Além disso, a utilização de um mesmo componente em vários sistemas, aumenta a possibilidade de detecção de erros e reforça a confiança no componente.
+
+\item Redução do Esforço: A reutilização de software proporciona uma redução do tempo de desenvolvimento, o que reduz o tempo necessário para o produto ser disponibilizado no mercado para trazer rentabilidade.
+
+\item Trabalho redundante e tempo de desenvolvimento: Desenvolver um sistema do
+zero significa desenvolvimento redundante de muitos componentes, como requisito
+especificações, casos de uso, arquitetura, etc. Isso pode ser evitado quando estes estão disponíveis como componentes reutilizáveis e podem ser compartilhados, resultando em menos desenvolvimento, tempo e custo associado.
+
+\item Documentação: Embora a documentação seja muito importante para a
+manutenção de um sistema, muitas vezes é negligenciada. A reutilização de componentes software reduz a quantidade de documentação a ser escrita, entretanto depende da qualidade do que está escrito. Assim, apenas a estrutura do sistema e os novos artefatos desenvolvidos necessitam ser documentados.
+
+\item Custo de manutenção: Menos defeitos e manutenções são esperados quando tem-se comprovada a qualidade dos componentes utilizados.
+
+\item Tamanho da equipe: É comum entrar casos em que a equipe de desenvolvimento sofre sobrecarga. Entretanto, dobrar o tamanho da equipe de desenvolvimento não necessariamente duplica produtividade. Se muitos componentes podem ser reutilizados, é possível desenvolver com equipes menores, levando a melhores comunicações e aumento da produtividade.
+
+\end{itemize}
+
+Apesar dos benefícios da reutilização de software, a mesma não é amplamente praticado como imagina-se. Existem fatores que influenciam direta ou indiretamente na sua adoção. Esses fatores podem ser de aspecto gerencial, organizacional, econômico, conceitual ou técnico. Veremos a seguir alguns aspectos que podem gerar conflito com a cultura de reuso de software, segundo o C.R.U.I.S.E Book:
+%(Sametinger, 1997). REVER
+
+\begin{itemize}
+	
+\item Falta de apoio da gestão: Como a reutilização de software gera custos iniciais,
+a medida pode não ser amplamente alcançada em uma organização sem o apoio de alto nível gestão. Os gestores têm de ser informados sobre os custos iniciais e serem convencidos sobre economias futuras.
+
+\item Gerenciamento do Projeto: Gerenciar projetos tradicionais é uma tarefa árdua, principalmente, os que praticam a reutilização de software. Utilizando a técnica em larga escala, tem-se impacto sobre todo o ciclo de vida do software.
+
+\item Estruturas organizacionais inadequadas: As estruturas organizacionais devem
+considerar diferentes necessidades que surgem quando a reutilização em larga escala está sendo adotada. Por exemplo, uma equipe particionada pode ser alocada somente para desenvolver, manter e certificar componentes reutilizáveis de software.
+
+\item Incentivos de gestão: É comum a falta de incentivo para deixar os desenvolvedores gastarem tempo elaborando reutilizáveis componentes do sistema. A produtividade é muitas vezes medida apenas no tempo necessário para concluir um projeto. Assim, fazer qualquer trabalho além disso, embora benéfico para a empresa como um todo, diminui o seu sucesso. Mesmo quando os componentes reutilizáveis são utilizados, os benefícios obtidos são uma pequena fração do que poderia ser alcançado caso houvesse reutilização explícita, planejada e organizada.
+
+\item Dificuldade de encontrar software reutilizável: Para reutilizar os componentes, devem existir formas eficientes de busca. Além disso, é importante ter um repositório bem organizado contendo componentes com um eficiente meio de acesso.
+
+\item Não reutilização do software encontrado. O acesso fácil ao software existente
+não necessariamente aumentar a reutilização. Os componentes reutilizáveis devem ser cuidadosamente especificados, projetados, implementados e documentados, pois em alguns casos, modificar e adaptar o código  pode ser mais custoso que a programação da funcionalidade necessária a partir do zero.
+
+\item Modificação: É muito difícil encontrar um componente que funcione
+exatamente da mesma maneira que queremos. Desta forma, são necessárias modificações e devem existir formas de determinar os seus efeitos sobre o componente.
+
+
+\end{itemize}
+
+
+%Outra diretriz importante para a reutilização de software é reduzir o risco na criação de novos softwares. O risco tende a ser bastante reduzido se os componentes que estão sendo reutilizados têm as documentação, interfaces necessárias e devidamente testadas, fatores que contibruem para uma fácil integração.
+%De acordo com Keswani et al. \citep{6783445}, para o reuso de software dar retornos apropriados, o processo deve ser sistemático e planejado. Qualquer organização que implemente a reutilização de software deve identificar os melhores métodos e estratégias de reutilização para obter a máxima produtividade. A reutilização de software ajuda a evitar software de engenharia a partir do zero, pois usa módulos de software existentes. A reutilização de software, embora seja uma tarefa difícil, especialmente para softwares antigos sem padrões de projeto, pode melhorar significativamente a produtividade e a qualidade de um produto de software. Embora a reutilização de software não seja um novo campo, ela pode dar grandes retornos em curto período de tempo.
 
 
 \section{Modularização}\label{sec:modularizacao} %artigo de claudio pagina 222 introdução
+
+
+%A modularidade vem desempenhando um papel predominante estágios emergentes das disciplinas de arquitetura de software [13]. Engenheiros de software consideram modularidade como princípio base na comparação entre arquiteturas alternativas  e arquitetura degeneração [9]. De fato, os engenheiros de software são incentivados a arquitecturas, baseando-se numa multiplicidade de mecanismos de modularidade disponíveis em: 
+%(i) Linguagens de descrição de arquitetura (ADLs), como ACME [8], 
+%(ii) catálogos de arquitetônicos [2, 13], e 
+%(iii) conhecem bem princípios de alto nível, como interfaces de componentes estreitos, acoplamento arquitectónico reduzido e semelhantes.
 
 
 Conforme é frisado no trabalho de Wickramaarachchi e Lai \citep{7062705}, o conceito de modularização na indústria de software tem uma longa história e tem sido utilizado para melhorar o processo de desenvolvimento de software em diferentes estágios. Os principais conceitos por trás da modularização do software foram introduzidos por pesquisadores pioneiros há quarenta anos, com uma notável contribuição feita por Melvin Conway e David Parnas, que tem representação notável na engenharia de software.
