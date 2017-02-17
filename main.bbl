@@ -4,9 +4,6 @@
 RedMonk, ``Gráfico de linguanges - redmonk.'' \url{http://goo.gl/vDSGLx},
   2016.
 
-\bibitem{WebhostFace-PHP-Frameworks}
-W.~Face, ``Popular frameworks php 2015.'' \url{https://goo.gl/DjUREE}, 2016.
-
 \bibitem{GoogleTrends-Front-end-Frameworks}
 Google, ``Googletrends - frameworks front-ent mais buscados em 2015.''
   \url{https://goo.gl/VUhIrv}, 2016.
@@ -39,10 +36,24 @@ T.~Kaur, D.~Kaur, and A.~Aggarwal, ``Cost model for software as a service,'' in
   {\em 2014 5th International Conference - Confluence The Next Generation
   Information Technology Summit (Confluence)}, pp.~736--741, Sept 2014.
 
+\bibitem{Ezran2002}
+M.~Ezran, M.~Morisio, and C.~Tully, {\em Practical Software Reuse}.
+\newblock London, UK, UK: Springer-Verlag, 2002.
+
+\bibitem{Basili1991}
+V.~R. Basili and H.~D. Rombach, ``Support for comprehensive reuse,'' {\em
+  Softw. Eng. J.}, vol.~6, pp.~303--316, Sept. 1991.
+
 \bibitem{6783445}
 R.~Keswani, S.~Joshi, and A.~Jatain, ``Software reuse in practice,'' in {\em
   2014 Fourth International Conference on Advanced Computing Communication
   Technologies}, pp.~159--162, Feb 2014.
+
+\bibitem{cruise2007}
+E.~S. Almeida, A.~Alvaro, V.~C. Garcia, J.~C. C.~P. Mascena, V.~A. d.~A.
+  Burégio, L.~M. Nascimento, D.~Lucrédio, and S.~L. Meira, {\em C.R.U.I.S.E -
+  Component Reuse in Software Engineering}.
+\newblock CESAR, 2007.
 
 \bibitem{7062705}
 D.~Wickramaarachchi and R.~Lai, ``Software modularization in global software
@@ -64,5 +75,16 @@ Y.~Ping, K.~Kontogiannis, and T.~C. Lau, ``Transforming legacy web applications
 J.~Yuping, ``Research and application of ajax technology in web development,''
   in {\em 2014 IEEE Workshop on Electronics, Computer and Applications},
   pp.~256--260, May 2014.
+
+\bibitem{4664349}
+J.~Tesarik, L.~Dolezal, and C.~Kollmann, ``User interface design practices in
+  simple single page web applications,'' in {\em 2008 First International
+  Conference on the Applications of Digital Information and Web Technologies
+  (ICADIWT)}, pp.~223--228, Aug 2008.
+
+\bibitem{7195633}
+I.~Salvadori and F.~Siqueira, ``A maturity model for semantic restful web
+  apis,'' in {\em 2015 IEEE International Conference on Web Services},
+  pp.~703--710, June 2015.
 
 \end{thebibliography}
