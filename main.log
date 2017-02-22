@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.20)  16 FEB 2017 22:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.20)  17 FEB 2017 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1034,20 +1034,20 @@ LaTeX Info: Redefining \nameref on input line 101.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
- <cinlogo.png, id=120, 130.4875pt x 103.38625pt>
+ <cinlogo.png, id=120, 198.7425pt x 287.0725pt>
 File: cinlogo.png Graphic file (type png)
 
 <use cinlogo.png>
 Package pdftex.def Info: cinlogo.png used on input line 104.
-(pdftex.def)             Requested size: 84.81586pt x 67.20026pt.
+(pdftex.def)             Requested size: 129.18108pt x 186.59491pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 104.
- <ufpelogo.png, id=122, 937.5025pt x 865.2325pt>
+ <ufpelogo.png, id=122, 398.48875pt x 575.14874pt>
 File: ufpelogo.png Graphic file (type png)
 
 <use ufpelogo.png>
 Package pdftex.def Info: ufpelogo.png used on input line 104.
-(pdftex.def)             Requested size: 28.45274pt x 26.2463pt.
+(pdftex.def)             Requested size: 28.45274pt x 41.06314pt.
 LaTeX Font Info:    Try loading font information for T1+times on input line 104
 .
 LaTeX Font Info:    No file T1times.fd. on input line 104.
@@ -1117,7 +1117,7 @@ Package babel Info: Redefining portuges shorthand "|
 File: ufpelogo.png Graphic file (type png)
  <use ufpelogo.png>
 Package pdftex.def Info: ufpelogo.png used on input line 105.
-(pdftex.def)             Requested size: 62.59596pt x 57.76035pt.
+(pdftex.def)             Requested size: 62.59596pt x 90.34067pt.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 105.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
@@ -1435,18 +1435,15 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 9.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 16.
 [7
 
 
 
 ]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 30.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5077) has occurred while \output is active []
 
 
 
@@ -1456,10 +1453,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 27.
 [8]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 29.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1467,11 +1467,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 52.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 52.
 [9]
-Overfull \hbox (0.17226pt too wide) in paragraph at lines 72--74
+Overfull \hbox (0.17226pt too wide) in paragraph at lines 71--73
 []\T1/ptm/m/n/12 Estruturas or-ga-ni-za-ci-o-nais ina-de-qua-das: As es-tru-tu-
 ras or-ga-ni-za-ci-o-nais de-vem con-
  []
@@ -1483,12 +1483,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 75.
 [10]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1497,12 +1497,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 108.
 [11]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 113.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1511,9 +1511,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 126.
 [12])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1547,7 +1547,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 19.
-[15] <img/spa-mvc.png, id=385, 1140.26pt x 319.1925pt>
+[15] <img/spa-mvc.png, id=389, 1140.26pt x 319.1925pt>
 File: img/spa-mvc.png Graphic file (type png)
  <use img/spa-mvc.png>
 Package pdftex.def Info: img/spa-mvc.png used on input line 39.
@@ -1595,7 +1595,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 72.
 
-<img/Diagrama_de_caso_de_uso.png, id=395, 490.83376pt x 711.65875pt>
+<img/Diagrama_de_caso_de_uso.png, id=399, 490.83376pt x 711.65875pt>
 File: img/Diagrama_de_caso_de_uso.png Graphic file (type png)
 
 <use img/Diagrama_de_caso_de_uso.png>
@@ -1603,7 +1603,7 @@ Package pdftex.def Info: img/Diagrama_de_caso_de_uso.png used on input line 77.
 
 (pdftex.def)             Requested size: 420.4466pt x 609.62561pt.
 
-<img/DER.png, id=396, 738.76pt x 1058.95625pt>
+<img/DER.png, id=400, 738.76pt x 1058.95625pt>
 File: img/DER.png Graphic file (type png)
  <use img/DER.png>
 Package pdftex.def Info: img/DER.png used on input line 84.
@@ -1672,7 +1672,7 @@ Package babel Info: Redefining portuges shorthand "|
 [22]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 206.
- <img/diagrama_bpmn.png, id=419, 712.6625pt x 889.3225pt>
+ <img/diagrama_bpmn.png, id=423, 712.6625pt x 889.3225pt>
 File: img/diagrama_bpmn.png Graphic file (type png)
 
 <use img/diagrama_bpmn.png>
@@ -1763,7 +1763,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
 Here is how much of TeX's memory you used:
  11253 strings out of 493014
  156512 string characters out of 6133351
- 258297 words of memory out of 5000000
+ 258277 words of memory out of 5000000
  14391 multiletter control sequences out of 15000+600000
  79126 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1777,10 +1777,10 @@ ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (50 pages, 2189041 bytes).
+Output written on main.pdf (50 pages, 778091 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 426 compressed objects within 5 object streams
+ 510 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
  110 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
