@@ -28,5 +28,9 @@
 \contentsline {section}{\numberline {3.2}Processo}{25}{section.3.2}
 \contentsline {section}{\numberline {3.3}O que h\IeC {\'a} de novo ?}{25}{section.3.3}
 \contentsline {chapter}{\numberline {4}An\IeC {\'a}lise dos dados}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Objetivo da pesquisa}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}P\IeC {\'u}blico alvo}{27}{section.4.2}
+\contentsline {section}{\numberline {4.3}M\IeC {\'e}todo de pesquisa}{28}{section.4.3}
+\contentsline {section}{\numberline {4.4}Resultados}{28}{section.4.4}
 \contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{29}{chapter.5}
 \contentsline {chapter}{Ap\IeC {\^e}ndice}{33}{section*.14}
