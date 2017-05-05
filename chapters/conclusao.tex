@@ -1,2 +1,27 @@
 \chapter{Conclusão}
 
+
+Diante da proposta deste trabalho de conclusão de curso e da avaliação realizada, tem-se que a proposta teve um funcionamento correto. Entretanto, é necessário realizar uma discussão acerca do trabalho desenvolvido, comentando aspectos conclusivos. Assim, o capítulo corrente é composto por três seções. A seção \ref{percepcao} traz uma discussão sobre a percepção em caráter geral sobre o contexo em que o trabalho foi aplicado. A seção \ref{relacionados} traz trabalhos relacionados ao aqui apresentado, provendo comparação sobre o modelo de funcionamento da ideia. E por fim, a seção \ref{direcionamentos} discorre sobre possíveis caminhos para a evolução do trabalho aqui desenvolvido.
+
+
+\section{Percepção geral}\label{percepcao} %(discutir resultados alcançados, discutir contribuição, discutir resultados da prova de conceito)
+
+
+Diante dos resultados apresentados no capítulo anterior, através da prova de conceito realizada, tem-se que este trabalho pode colaborar com a redução do esforço para desenvolver um software e propor a padronização da parte de controle de acesso. Também, foi constatada a aplicabilidade deste trabalho em softwares de diferentes plataformas (Web e mobile), exemplificando que é possível expandir ainda mais a padronização de desenvolvimento de software, gerando componentes universais que facilitem o entendimento e acelerem o desenvolvimento dos softwares. Também foi constatado que é possível aplicar a padronização em softwares novos e legados.
+Devido ao baixo esforço necessário para a integração deste serviço, conforme o feedback das avaliações realizadas, é sempre possível pensar em novas ideias que facilitem as atividades realizadas.
+
+
+\section{Trabalhos relacionados}\label{relacionados}
+
+
+Conforme já apresentado, este trabalho de conclusão de curso propõe um software como serviço que atende ao controle de acesso do software cliente. Essa situação tem o mesmo fundamento que o OAuth\footnote{https://oauth.net/}, que fornece esquema de autenticação para os sites/softwares clientes. Com o OAuth, é possível integrar ao software cliente a autenticação via e-mail, Facebook, Google, Github, Twitter e etc, atendendo a diversas plataformas. O processo de autenticação do OAuth é seguro e útil aos clientes, pois os mesmos não precisam realizar novamente extensos cadastros nos sites, porque o site correspondente à forma escolhida de autenticação (Via Facebook, Google...) já dispõe de tais informações dos usuários.
+
+O Firebase\footnote{https://firebase.google.com/?hl=pt-br}, que pertence ao Google, também tem abordagem semelhante ao ModMan. O Firebase disponibiliza uma série de serviços que podem ser integrados ao projetos de terceiros mediante correta configuração. Entre os serviços disponibilizados, tem-se notificações Push, banco de dados em tempo real e Analytics. O foco é atender aos dispositivos móveis Android e iOS e também sistemas Web. Devido à interoperabilidade, o Firebase tem suporte à comunicação com diversas linguagens, deixando que o desenvolvedor decida a melhor escolha para o seu projeto. A principal diferença do ModMan para os serviços supracitados se dá pelo tipo de serviço que é fornecido, pois o controle de permissão que o ModMan fornece não é disponibilizado pelo OAuth e Firebase.
+
+
+\section{Direções futuras}\label{direcionamentos}%(se alguém interessar-se por seu trabalho, como este poderá ser estendido?)
+
+
+Conforme foi mencionado no feedback das avaliações realizadas sobre o trabalho proposto, existem pontos que notoriamente podem ser evoluidos no mesmo. Um item essencial, é disponibilizar a possibilidade de deixar uma configuração de permissão como ativa ou intaiva, pois atualmente para "inativar" uma configuração cadastrada, é necessário deletar o correspondente cadastro. Essa procedimento gera transtorno para quem administra as permissões, tornando pertinente a evolução dessa funcionalidade.
+Outra possibilidade de evolução ao sistema, é a replicação das permissões configuradas a um perfil, sistema ou módulo. Dessa forma, caso esteja configurando as permissões de um sistema complexo, o processo de cadastro tornaria-se mais rápido e eficiente.% Devido à documentação do software que contém diversos artefatos, documentação adequada e utiliza tecnologias comuns ao mercado, a continuidade do projeto tende a ser descomplicada.
+

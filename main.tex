@@ -1,4 +1,4 @@
- %% RiSE Latex Template - version 0.5
+%% RiSE Latex Template - version 0.5
 %%
 %% RiSE's latex template for thesis and dissertations
 %% http://risetemplate.sourceforge.net
@@ -53,47 +53,46 @@
 %%          \secref  -- for section reference
 %%          \appref  -- for appendix reference
 %%          \axiref  -- for axiom reference
-%%          \conjref -- for conjecture reference
+%%          \conjref -- for conjecture references
 %%          \defref  -- for definition reference
 %%          \lemref  -- for lemma reference
 %%          \theoref -- for theorem reference
 %%          \corref  -- for corollary reference
 %%          \propref -- for proprosition reference
 %%          \pgref   -- for page reference
-%%
+%%4
 %%          Example: See \chapref{chap:introduction}. It will produce 
 %%                   'See Chapter 1', in case of English language.
 
-\documentclass[pt,twoside,onehalfspacing,bsc]{risethesis}
+\documentclass[pt,oneside,onehalfspacing,bsc]{risethesis}
+%\documentclass[pt,twoside,onehalfspacing,bsc]{risethesis}
 
-\usepackage[sort,square]{natbib} %package for bibliography
-\bibliographystyle{ieeetr} %authordate1
-
-\usepackage[utf8]{inputenc}
-\usepackage[brazilian]{babel}
-\usepackage[T1]{fontenc}
-\usepackage{natbib}
+\usepackage[sort, numbers]{natbib}
+\usepackage{babel}
+\usepackage{supertabular}
+\usepackage{microtype}
+\usepackage{lscape}
+\usepackage{multirow}
 \usepackage{graphicx}
-%\usepackage{svg}
 
 %% Change the following pdf author attribute name to your name.
-\usepackage[linkcolor=blue,citecolor=blue,urlcolor=blue,colorlinks,pdfpagelabels,pdftitle={TCC de Victor Nunes},pdfauthor={Victor Nunesl}]{hyperref}
+\usepackage[linkcolor=blue,citecolor=blue,urlcolor=blue,colorlinks,pdfpagelabels,pdftitle={TCC de Victor Nunes},pdfauthor={Victor de Azevedo Nunes}]{hyperref}
 
 \address{SALVADOR}
 
 \universitypt{Universidade Federal da Bahia}
 \universityen{Federal University of Bahia}
 
-\departmentpt{Departamento de Ciência da Computação}
+\departmentpt{Departamento de Ci\^{e}ncia da Computa\c{c}\~{a}o}
 \departmenten{Computer Science Department}
 
-\programpt{Programa Multiinstitucional de Pós-graduação em Ciência da Computação}
-\programen{Graduate in Computer Science}
+\programpt{}
+\programen{}
 
-\majorfieldpt{Ciência da Computação}
-\majorfielden{Computer Science}
+\majorfieldpt{Sistemas de Informação}
+\majorfielden{Information Systems}
 
-\title{Sistema de gerenciamento de módulos}
+\title{ModMan - Gerenciamento de Permissões para SaaS}
 \date{Abril/2017}
 
 \author{Victor de Azevedo Nunes}
@@ -106,25 +105,31 @@
 \presentationpage
 
 \begin{dedicatory}
-Eu dedico esta dissertação...
-%I dedicate this dissertation to my family, girlfriend, friends and
-%professors who gave me all necessary support to get here.
+Dedico este trabalho aos meus pais, Adelmo e Telma, irmãos Vivian e Vinicius e à minha namorada Laís, pela expectativa da realização deste marco.
 \end{dedicatory}
 
 \acknowledgements
-Meus agradecimentos...
+Agradeço primeiramente a Deus, por ter me dado força para seguir em frente e vencer as diversas dificuldades encontradas no caminho. 
 
-\begin{epigraph}[]{Edward V Berard}
-Walking on water and developing software from a specification are easy if both are frozen
+Agradeço os meus pais, Adelmo e Telma, pelo amor, dedicação na formação proporcionada que me fez chegar até aqui e compreensão pelos momentos em que estive ausente devido à dedicação aos estudos. Aos meus irmãos, que também contribuíram à minha formação. 
+
+À minha namorada Laís, pelo companheirismo, incentivo, compreensão em todos os momentos e por acreditar na minha evolução.
+
+Ao amigo Guilherme pela grande contribuição, me ajudando com muita dedicação o que se fez necessário, sem medir esforços. Também ao amigo Vinicius, que sempre me incentivou e não mediu esforços para me ajudar quando precisei.
+
+E à Universidade, pelos ensinamentos e por proporcionar amigos que levarei comigo.
+
+\begin{epigraph}[]{Charles Kendall Adams}
+"Ninguém nunca conseguiu alcançar sucesso simplesmente fazendo o que lhe é solicitado. É a quantidade e a excelência do que está além do solicitado que determina a grandeza da distinção final."
 \end{epigraph}
 
 \resumo
 % Escreva seu resumo no arquivo resumo.tex
-\input{resumo}
+\input{abstract/resumo}
 
 \abstract
 % Write your abstract in a file called abstract.tex
-\input{abstract}
+\input{abstract/abstract}
 
 % Summary (tables of contents)
 \tableofcontents
@@ -144,15 +149,15 @@ Walking on water and developing software from a specification are easy if both a
 %\lstlistoflistings
 
 \mainmatter
-
+%\setcounter{page}{21}
 \include{chapters/intro}
 \include{chapters/referencial_teorico}
 \include{chapters/proposta}
 \include{chapters/analise}
 \include{chapters/conclusao}
 
-%\bibliographystyle{natbib}
-%\addcontentsline{toc}{chapter}{\bibliographytocname}
+\bibliographystyle{natbib}
+\addcontentsline{toc}{chapter}{\bibliographytocname}
 \bibliography{references}
 
 % Appendix
@@ -160,6 +165,6 @@ Walking on water and developing software from a specification are easy if both a
 \addappheadtotoc
 \appendix
 \appendixpage
-% \include{appendix/experiment-instruments}
+\include{appendix/instruments}
 
 \end{document}

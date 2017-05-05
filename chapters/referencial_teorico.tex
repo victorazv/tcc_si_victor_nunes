@@ -1,135 +1,163 @@
 \chapter{Referencial Teórico}
 
 
-Projetar o desenvolvimento de um software requer muito planejamento, pois as falhas iniciais podem custar bastante caro ou até mesmo inviabilizar a continuação de um projeto. Assim, a escolha da arquitetura ideal para a aplicabilidade é essencial na concepção de um produto de software. 
-De todo o modo, sempre busca-se fazer mais com menos. Diante de tal filosofia, temos neste capítulo, uma breve discussão sobre alguns elementos de projeto e arquitetura de software, a fim de contextualizar este trabalho de conclusão de curso.
-O capítulo corrente é composto por quatro seções. A \ref{sec:saas} trata de Software como serviço, discutindo alguns elementos do contexto que são relevantes para o trabalho proposto. A \ref{sec:reuso}  discute sobre a empregabilidade do reuso de software. A \ref{sec:modularizacao} seção, trata sobre aspectos envolvidos na modularização dos softwares. Por fim, a \ref{sec:apps_web} aborda as aplicações web, discutindo sobre aspectos relevantes sobre a aplicação web que compõe este trabalho.
+Projetar o desenvolvimento de um software requer muito planejamento, pois as falhas iniciais podem custar bastante caro ou até mesmo inviabilizar a continuação de um projeto. Assim, a escolha da arquitetura ideal é essencial na concepção de um produto de software. 
+De todo o modo, sempre busca-se a premissa de fazer mais com meno. Assim, temos neste capítulo uma breve discussão sobre alguns elementos de projeto e arquitetura de software, a fim de contextualizar este trabalho de conclusão de curso.
+O capítulo corrente é composto por cinco seções. A Seção \ref{sec:saas} trata de Software como serviço, discutindo alguns elementos do contexto que são relevantes para o trabalho proposto. A Seção \ref{sec:reuso} discute sobre a empregabilidade do reuso de software. A Seção \ref{sec:modularizacao} trata dos aspectos envolvidos na modularização dos softwares. A Seção \ref{sec:apps_web} aborda as aplicações web, tratando sobre aspectos relevantes acerca da  aplicação web que compõe este trabalho e, por fim, a Seção \ref{sec:resumo} sintetiza os tema abordados nas seções do capítulo corrente, discorrendo sobre a relevância do estudo dos mesmos.
 
 
- \section{Software como serviço}\label{sec:saas}
+\section{Software como serviço}\label{sec:saas}
 
 
-Segundo La e Chun \citep{La2009Systematic}, o princípio da definição de Software como um Serviço (Sofware as a Service - SaaS) é um serviço complementar para aplicações da computação em nuvem (cloud computing). No entanto, as áreas não se confundem. SaaS deve ser entendido como um mecanismo de suporte às soluções existentes na cloud. Os SaaS existem justamente para maximizar o reuso de serviços repetidos e não centrais em uma aplicação remota.
+Segundo La e Chun \citep{La2009Systematic}, o princípio da definição de software como um serviço (Sofware as a Service - SaaS) é um serviço complementar para aplicações da computação em nuvem (\textit{cloud computing}). Embora interligadas, no entanto, as áreas não se confundem, uma vez que um SaaS deve ser entendido como um mecanismo de suporte às soluções existentes na cloud. Os SaaS existem justamente para maximizar o reuso de serviços comuns em aplicações.
 
 
-Como vantagens, diversos fatores podem ser favoráveis para a adoção de um SaaS, como custo e manutenção dentre outros fatores aplicáveis a soluções específicas. Lechesaet al. \citep{LechesaSS11}, quantificam índices sobre os fatores determinantes para adoção ou não de um SaaS voltado para ERP na África do Sul. Os principais fatores determinantes para adoção desse mecanismo de software são sua fluidez quanto à rede e a segurança. Esses fatores estão presentes na aplicação desenvolvida neste trabalho de conclusão de curso.
+Como vantagens, SaaS representa uma forte tendência no desenvolvimento de soluções Web, graças às tecnologias emergentes que a potencializam, a exemplo de requisições AJAX (Asynchronous JavaScript And XML). Existem diversos fatores que podem ser favoráveis à adoção de um SaaS, como custo e manutenção. Uma investigação recente \citep{LechesaSS11}, apresenta o resultado de uma pesquisa que quantifica índices sobre os fatores determinantes para adoção ou não de um SaaS voltado para ERP na África do Sul. Os principais fatores determinantes para adoção desse mecanismo de software foram sua fluidez quanto à rede e a segurança. Esses fatores estão presentes na aplicação desenvolvida neste trabalho de conclusão de curso, pois são essenciais para o funcionamento do ModMan.
 
 
-Devido ao fato de ter um serviço constantemente na nuvem, fica o questionamento sobre a segurança da informação manipulada. Sabe-se que a vulnerabilidade na Web não é restrita ao SaaS, atingindo diversos âmbitos. Rai et al. \cite{journals/corr/RaiSM13} consideram que o avanço da computação em nuvem não é um problema apenas para os serviços Web do ponto de vista da segurança, pois muitos trabalhos na literatura mostram a área como mais um ponto de vulnerabilidade para diversos setores, a exemplo de infraestrutura. No mesmo artigo mencionado de Rai et al. \cite{journals/corr/RaiSM13}, também realizaram-se estudos exploratórios junto a empresas usuárias de serviços em computação em nuvem e consideram que a perspectiva de SaaS também pode fortalecer a segurança nas aplicações de cloud computing, pois o software de autenticação compartilhado por várias aplicações em nuvem, oferece uma melhor padronização e consequente facilidade de prevenção a erros de vulnerabilidade específicas de cada módulo da pesquisa. Esse ponto de vista é fundamenta para a compreensão de SaaS.
+Devido ao fato de ter um serviço constantemente na nuvem, é um fator impoartante a segurança da informação manipulada. Sabe-se que a vulnerabilidade na Web não é restrita ao SaaS, atingindo diversos âmbitos. Rai et al. \cite{journals/corr/RaiSM13} consideram que o avanço da computação em nuvem não é um problema apenas para os serviços Web do ponto de vista da segurança, pois trabalhos na literatura mostram a área como mais um ponto de vulnerabilidade para diversos setores, a exemplo de infraestrutura. Rai et al. \cite{journals/corr/RaiSM13}, também reportam resultados de estudos exploratórios realizados junto a empresas usuárias de serviços em computação em nuvem. Segundo os autores, a perspectiva de Saas também pode fortalecer a segurança nas aplicações de cloud computing. Isso ocorre pois o software de autenticação compartilhado por várias aplicações em nuvem, oferece uma melhor padronização e consequente facilidade de prevenção a erros de vulnerabilidade específicas de cada módulo da pesquisa. %Esse ponto de vista é de suma importância para a compreensão dos pontos positivos e negativos de uma abordagem baseada em SaaS.
 
 
-A arquitetura de armazenamento de dados de um Saas pode variar de acordo com a necessidade do contexto. Huixin \cite{7586486} descreve possíveis modelagens nesse sentido. Essa abordagem pode ser com um banco de dados único, fazendo com que diferentes clientes compartilhem o mesmo banco, diferindo os dados através de controle de usuário, ou isolando os diferentes clientes através de bancos de dados exclusivos para cada um. Esse fator também pode ser combinado com a arquitetura da aplicação, caso ofereça aplicação única para todos os clientes ou aplicação compartilhada. Diante das possíveis abordagens, a modelagem de dados do software pode ser decidida pela regra de negócio. Este trabalho optou por aplicação única e banco de dados compartilhado.
+A arquitetura de armazenamento de dados de um Saas pode variar de acordo com a necessidade do contexto. Huixin \cite{7586486} ilustra possíveis modelagens nesse sentido. Essa abordagem pode ser com um banco de dados único, fazendo com que diferentes clientes compartilhem o mesmo banco, diferindo os dados através de controle de usuário, ou isolando os diferentes clientes através de bancos de dados exclusivos para cada um. Esse fator também pode ser combinado com a arquitetura da aplicação, caso ofereça aplicação única para todos os clientes ou aplicação compartilhada. Diante das possíveis abordagens, a modelagem de dados do software pode ser decidida pela regra de negócio. Este trabalho optou por aplicação única e banco de dados multiclientes, devido à maior facilidade para manutenção.
 
-Devido ao conceito particular de obtenção de software, tanto pela visão do cliente como pela visão do vendedor, é necessário compreender os diversos aspectos que podem ser relevantes ao orçar um Saas. O recente trabalho de T. Kaur et al. \citep{6949281} orienta um modelo para compor o custo de um Saas. O custo total seria composto pelos fatores que dão suporte ao funcionamento do software. Tais fatores incluem infra-estrutura, configurabilidade, customização, parâmetros de QoS (Quality of service) como escalabilidade, disponibilidade, usabilidade, pontualidade e desempenho da resposta, portabilidade, custo total de propriedade e retorno do investimento. Esses fatores caracterizam o custo de forma eficaz, possibilitando ao fornecedor, prover um Serviço de acordo com a exigência do consumidor em vários pacotes de serviços.
+Devido à forma de obtenção de software (produto), tanto pela visão do cliente como pela visão do vendedor, é necessário compreender os diversos aspectos que podem ser relevantes ao orçar um SaaS. O recente trabalho de T. Kaur et al. \citep{6949281} orienta um modelo para compor o custo de um SaaS. O custo total seria composto pelos fatores que dão suporte ao funcionamento do software. Tais fatores incluem infra-estrutura, configurabilidade, customização, parâmetros de QoS (Quality of service) como escalabilidade, disponibilidade, usabilidade, pontualidade e desempenho da resposta, portabilidade, custo total de propriedade e retorno do investimento. Esses fatores caracterizam o custo de forma eficaz, possibilitando ao fornecedor, prover um Serviço de acordo com a exigência do consumidor em vários pacotes de serviços.
 
 
-O conceito de software como serviço se aplica neste trabalho de conclusão de curso, pois o mesmo estará disponível na web com alta disponibilidade adotando as características apresentadas para qualquer pessoa que desejar usá-lo. Assim, basta se cadastrar, configurá-lo e usar como um serviço, sem preocupação com a manutenção do mesmo.
+O conceito de software como serviço se aplica neste trabalho, pois o mesmo estará disponível na web com alta disponibilidade adotando as características apresentadas para qualquer pessoa que desejar usá-lo. Assim, basta se cadastrar, configurá-lo e usar como um serviço, sem preocupação com a manutenção do mesmo. E caso fosse necessário determinar o custo para um cliente, os elementos aplicados no trabalho de T. Kaur et al. \citep{6949281}, que foram comentados nessa seção, poderiam ser levados em consideração.
 
 
 \section{Reuso de software}\label{sec:reuso} %CRUISE BOOK CAPITULO 2
 
 
-De acordo com o livro Software pratical reuse \citep{Ezran2002}, o reuso de software é a utilização de qualquer informação que um desenvolvedor pode necessitar no processo de criação de software. O livro de Basili e Rombach \citep{Basili1991} define reutilização de software como o uso de tudo o que está associado a um projeto de conhecimento.
+De acordo com o livro Pratical Software Reuse \citep{Ezran2002}, o reuso de software é a utilização de qualquer informação que um desenvolvedor pode necessitar no processo de criação de software. O livro de Basili e Rombach \citep{Basili1991} define reutilização de software como o uso de tudo o que está associado a um projeto de conhecimento.
 Assim, o objetivo da reutilização de software é reciclar o design, código e outros componentes de um produto de software e assim reduzir o custo, o tempo e melhorar a qualidade do produto.
 Segundo Keswani et al. \cite{6783445}, o componente reutilizável de software pode ser qualquer parte de seu desenvolvimento, como um fragmento de código, design, casos de teste, ou até mesmo a especificação de requisitos de uma funcionalidade do software. 
 
-O reuso de software pode ter impacto positivo em diversos aspectos do software, vejamos alguns, conforme apresentados no C.R.U.I.S.E Book \citep{cruise2007} :
+O reuso de software pode ter impacto positivo em diversos aspectos do software, conforme apresenta o C.R.U.I.S.E Book \citep{cruise2007} :
 
 \begin{itemize}
 
-\item Qualidade: As correções de erro tornam-se úteis em todos os locais em que ocorreu, padronizando e facilitando a manutenção.
+\item \textbf{Qualidade}: As correções de erro tornam-se úteis em todos os locais em que ocorreu, padronizando e facilitando a manutenção.
 
-\item Produtividade: O ganho de produtividade é alcançado devido ao menor número de artefatos desenvolvido. Isso resulta em menor esforço de teste e também análise e design, reduzindo custos.
+\item \textbf{Produtividade}: O ganho de produtividade é alcançado devido ao menor número de artefatos desenvolvido. Isso resulta em menor esforço de teste e também economia nas fases de análise e design, reduzindo o custo total do projeto.
 
-\item Confiabilidade: A utilização de componentes bem testados aumenta a
+\item \textbf{Confiabilidade}: A utilização de componentes bem testados aumenta a
 confiança no software. Além disso, a utilização de um mesmo componente em vários sistemas, aumenta a possibilidade de detecção de erros e reforça a confiança no componente.
 
-\item Redução do Esforço: A reutilização de software proporciona uma redução do tempo de desenvolvimento, o que reduz o tempo necessário para o produto ser disponibilizado no mercado para trazer rentabilidade.
+\item \textbf{Redução do Esforço}: A reutilização de software proporciona uma redução do tempo de desenvolvimento, o que reduz o tempo necessário para o produto ser disponibilizado no mercado.
 
-\item Trabalho redundante e tempo de desenvolvimento: Desenvolver um sistema do
-zero significa desenvolvimento redundante de muitos componentes, como requisitos, especificações, casos de uso, arquitetura, etc. Isso pode ser evitado quando estes estão disponíveis como componentes reutilizáveis e podem ser compartilhados, resultando em um processo de desenvolvimento otimizado.
+\item \textbf{Trabalho redundante e tempo de desenvolvimento}: Desenvolver um sistema do
+zero significa desenvolvimento redundante de muitos componentes, como requisitos, especificações, casos de uso, arquitetura, etc. Isso pode ser evitado quando estes estão disponíveis como componentes reutilizáveis e podem ser compartilhados, resultando em menor tempo de desenvolvimento e custo associado.
 
-\item Documentação: Embora a documentação seja muito importante para a
+\item \textbf{Documentação}: Embora a documentação seja muito importante para a
 manutenção de um sistema, muitas vezes é negligenciada. A reutilização de componentes de software reduz a quantidade de documentação a ser escrita, entretanto depende da qualidade do que está escrito. Assim, apenas a estrutura do sistema e os novos artefatos desenvolvidos necessitam ser documentados.
 
-\item Custo de manutenção: Menos defeitos e manutenções são esperados quando tem-se comprovada a qualidade dos componentes utilizados.
+\item \textbf{Custo de manutenção}: Menos defeitos e manutenções são esperados quando tem-se comprovada a qualidade dos componentes utilizados.
 
-\item Tamanho da equipe: É comum haver casos em que a equipe de desenvolvimento sofre sobrecarga. Entretanto, dobrar o tamanho da equipe de desenvolvimento não necessariamente duplica produtividade. Se muitos componentes podem ser reutilizados, é possível desenvolver com equipes menores, levando a melhor comunicação e aumento da produtividade.
+\item \textbf{Tamanho da equipe}: É comum encontrar casos em que a equipe de desenvolvimento sofre sobrecarga. Entretanto, dobrar o tamanho da equipe de desenvolvimento não necessariamente duplica produtividade. Se muitos componentes podem ser reutilizados, é possível desenvolver com equipes menores, levando a melhor comunicação e aumento da produtividade.
 
 \end{itemize}
 
-Apesar dos benefícios da reutilização de software, ela não é suficientemente aproveitada. Existem fatores que influenciam direta ou indiretamente na sua adoção. Esses fatores podem ser de aspecto gerencial, organizacional, econômico, conceitual ou técnico. Veremos a seguir alguns aspectos que podem gerar conflito com a cultura de reuso de software, segundo o C.R.U.I.S.E Book \citep{cruise2007} :
+Apesar dos benefícios da reutilização de software, ela não é suficientemente aproveitada. Existem fatores que influenciam direta ou indiretamente na sua adoção. Esses fatores podem ser de aspecto gerencial, organizacional, econômico, conceitual ou técnico.
+
+
+O C.R.U.I.S.E Book \citep{cruise2007} também destaca alguns aspectos que podem gerar conflito com a cultura de reuso de software:
 %(Sametinger, 1997). REVER
 
 \begin{itemize}
 	
-\item Falta de apoio da gestão: Como a reutilização de software gera custos iniciais,
+\item \textbf{Falta de apoio da gestão:} Como a reutilização de software gera custos iniciais,
 a medida pode não ser amplamente alcançada em uma organização sem o apoio de alto nível de gestão. Os gestores têm de ser informados sobre os custos iniciais e serem convencidos sobre economias futuras.
 
-\item Gerenciamento do Projeto: Gerenciar projetos tradicionais é uma tarefa árdua, principalmente, os que praticam a reutilização de software. Utilizando a técnica em larga escala, tem-se impacto sobre todo o ciclo de vida do software.
+\item \textbf{Gerenciamento do Projeto:} Gerenciar projetos tradicionais é uma tarefa árdua, principalmente, os que praticam a reutilização de software. Utilizando a técnica em larga escala, tem-se impacto sobre todo o ciclo de vida do software.
 
-\item Estruturas organizacionais inadequadas: As estruturas organizacionais devem
+\item \textbf{Estruturas organizacionais inadequadas:} As estruturas organizacionais devem
 considerar diferentes necessidades que surgem quando a reutilização em larga escala está sendo adotada. Por exemplo, uma equipe particionada pode ser alocada somente para desenvolver, manter e certificar componentes reutilizáveis de software.
 
-\item Incentivos de gestão: É comum a falta de incentivo para deixar os desenvolvedores gastarem tempo elaborando componentes do sistemas. A produtividade é muitas vezes medida apenas no tempo necessário para concluir um projeto. Assim, fazer qualquer trabalho além disso, embora benéfico para a empresa como um todo, diminui o seu sucesso. Mesmo quando os componentes reutilizáveis são utilizados, os benefícios obtidos são uma pequena fração do que poderia ser alcançado caso houvesse reutilização explícita, planejada e organizada.
+\item \textbf{Incentivos de gestão:} É comum a falta de incentivo para deixar os desenvolvedores gastarem tempo elaborando componentes reutulizáveis. A produtividade é muitas vezes medida apenas no tempo necessário para concluir um projeto. Assim, fazer qualquer trabalho além disso, embora benéfico para a empresa como um todo, diminui o seu sucesso. Mesmo quando os componentes reutilizáveis são utilizados, os benefícios obtidos são uma pequena fração do que poderia ser alcançado caso houvesse reutilização explícita, planejada e organizada.
 
-\item Dificuldade de encontrar software reutilizável: Para reutilizar os componentes, devem existir formas eficientes de busca. Além disso, é importante ter um repositório bem organizado contendo componentes com um eficiente meio de acesso.
+\item \textbf{Dificuldade de encontrar software reutilizável:} Para reutilizar os componentes, devem existir formas eficientes de busca. Além disso, é importante ter um repositório bem organizado contendo componentes com um eficiente meio de acesso.
 
-\item Não reutilização do software encontrado. O acesso fácil ao software existente
-não necessariamente aumentar a reutilização. Os componentes reutilizáveis devem ser cuidadosamente especificados, projetados, implementados e documentados, pois em alguns casos, modificar e adaptar o código  pode ser mais custoso que a programação da funcionalidade necessária a partir do zero.
+\item \textbf{Não reutilização do software encontrado:} O fácil acesso ao software existente
+não necessariamente aumenta a reutilização. Os componentes reutilizáveis devem ser cuidadosamente especificados, projetados, implementados e documentados, pois em alguns casos, modificar e adaptar o código  pode ser mais custoso que a programação da funcionalidade necessária a partir do zero.
 
-\item Modificação: É muito difícil encontrar um componente que funcione
+\item \textbf{Modificação:} É muito difícil encontrar um componente que funcione
 exatamente da mesma maneira que queremos. Desta forma, são necessárias modificações e devem existir formas de determinar os seus efeitos sobre o componente.
 
 
 \end{itemize}
 
 
-A definição do reuso de software pode ser associada a este trabalho, pois ainda que como um serviço, estaremos adotando uma aplicação única para servir aos mais diversos softwares de uma empresa, por exemplo. Logo, ao adotar o projeto, pode ser interessante aplicar algumas métricas para tomar conhecimento de possíveis vantanjens como as citadas nessa seção, a exemplo de economia de tempo de desenvolvimento, e custo do projeto.
+Segundo Keswani et al. \citep{6783445}, para o reuso de software dar retornos apropriados, o processo deve ser sistemático e planejado. Qualquer organização que implemente a reutilização de software deve identificar os melhores métodos e estratégias de reutilização para obter a máxima produtividade.
 
-
-%Outra diretriz importante para a reutilização de software é reduzir o risco na criação de novos softwares. O risco tende a ser bastante reduzido se os componentes que estão sendo reutilizados têm as documentação, interfaces necessárias e devidamente testadas, fatores que contibruem para uma fácil integração.
-%De acordo com Keswani et al. \citep{6783445}, para o reuso de software dar retornos apropriados, o processo deve ser sistemático e planejado. Qualquer organização que implemente a reutilização de software deve identificar os melhores métodos e estratégias de reutilização para obter a máxima produtividade. A reutilização de software ajuda a evitar software de engenharia a partir do zero, pois usa módulos de software existentes. A reutilização de software, embora seja uma tarefa difícil, especialmente para softwares antigos sem padrões de projeto, pode melhorar significativamente a produtividade e a qualidade de um produto de software. Embora a reutilização de software não seja um novo campo, ela pode dar grandes retornos em curto período de tempo.
+A definição do reuso de software está associada a este trabalho, pois ainda que como um serviço, adotamos uma aplicação única para servir aos mais diversos softwares de uma empresa. Logo, ao adotar o projeto, pode ser interessante aplicar algumas métricas para tomar conhecimento de possíveis vantajens como as citadas nessa seção, a exemplo de economia de tempo de desenvolvimento e custo do projeto.
 
 
 \section{Modularização}\label{sec:modularizacao} %artigo de claudio pagina 222 introdução
 
 
-%A modularidade vem desempenhando um papel predominante estágios emergentes das disciplinas de arquitetura de software [13]. Engenheiros de software consideram modularidade como princípio base na comparação entre arquiteturas alternativas  e arquitetura degeneração [9]. De fato, os engenheiros de software são incentivados a arquitecturas, baseando-se numa multiplicidade de mecanismos de modularidade disponíveis em: 
-%(i) Linguagens de descrição de arquitetura (ADLs), como ACME [8], 
-%(ii) catálogos de arquitetônicos [2, 13], e 
-%(iii) conhecem bem princípios de alto nível, como interfaces de componentes estreitos, acoplamento arquitectónico reduzido e semelhantes.
+Conforme destacado por Wickramaarachchi e Lai \citep{7062705}, o conceito de modularização na indústria de software tem uma longa história e tem sido utilizado para melhorar o processo de desenvolvimento de software em diferentes estágios. Os principais conceitos por trás da modularização de software foram introduzidos por pesquisadores pioneiros há quarenta anos, com notável contribuição feita por Melvin Conway e David Parnas, que tem representação notável na engenharia de software.
 
 
-Conforme é frisado por Wickramaarachchi e Lai \citep{7062705}, o conceito de modularização na indústria de software tem uma longa história e tem sido utilizado para melhorar o processo de desenvolvimento de software em diferentes estágios. Os principais conceitos por trás da modularização do software foram introduzidos por pesquisadores pioneiros há quarenta anos, com uma notável contribuição feita por Melvin Conway e David Parnas, que tem representação notável na engenharia de software.
+Segundo Wickramaarachchi e Lai \citep{7062705}, a modularização é importante na identificação de dependências e reduz as dificuldades diante de uma possível necessidade de grandes alterações. Na perspectiva da engenharia de software, modularização geralmente tem várias vantagens, tais como: tornar a complexidade do software mais gerenciável, facilitar o trabalho paralelo e tornar o software mais maleável para acomodar o futuro incerto que um software pode ter. O objetivo final da modularização do software é aumentar a produtividade e a qualidade do software. Tal conceito encontra-se bastante difundido e está incorporado em linguagens de programação e ferramentas de software.
+
+O presente trabalho favorece o uso da modularização de software e até mesmo pode ser considerado um módulo a ser acoplado a qualquer software, mediante a compatibilidade. Ao realizar a adoção do trabalho proposto, fica bastante evidente a "responsabilidade" do mesmo no escopo do projeto. Assim, é possível tratá-lo como um módulo do projeto que o usa, mesmo que seja consumido como um serviço.
 
 
-Modularizar um software é um bom padrão a ser adotado. Segundo Wickramaarachchi e Lai \citep{7062705}, a modularização é importante na identificação de dependências e reduz as dificuldades diante de uma possível necessidade de grandes alterações. De uma perspectiva da engenharia de software, uma modularização geralmente tem várias vantagens, tais como: tornar a complexidade do software mais gerenciável, facilitar o trabalho paralelo e tornar o software mais maleável para acomodar o futuro incerto que um software pode ter. O objetivo final da modularização do software é aumentar a produtividade ea qualidade do software. Tal conceito encontra-se bastante difundido e estái incorporado em linguagens de programação e ferramentas de software. O presente trabalho favorece ao uso da modularização de um software e até mesmo pode ser considerado um módulo a ser acoplado a qualquer software, mediante a compatibilidade.
+\section{Aplicações Web}\label{sec:apps_web}
 
 
-Ao realizar a adoção do trabalho proposto, fica bastante evidente a "responsabilidade" do mesmo no escopo do projeto. Assim, é possível tratá-lo como um módulo do projeto que o usa, mesmo que seja consumido como um serviço.
+A popularidade das soluções Web aumentou exponencialmente na última década e todos os dias cresce o número de pessoas usuárias desse tipo de software. E seguindo um padrão próprio, Kumar et al. \citep{7813710} sugerem que para o desenvolvimento Web, deve-se manter a prática eficaz de produzir artefatos de engenharia de software. A abordagem baseada na Web oferece uma maneira fácil e eficaz para gerenciar e controlar o processo de desenvolvimento por meio de artefatos de modelagem. Tal abordagem pode ser usada quando há uma exigência de lidar com mudanças muito rápidas e grandes em requisitos de forma muito eficaz em muito menos tempo, gerando assim um menor impacto. 
 
 
-\section{Aplicações web}\label{sec:apps_web}
-
-
-A popularidade das soluções Web aumentou exponencialmente na última década e todos os dias cresce o número de pessoas usuárias desse tipo de software. E seguindo um padrão próprio, Kumar et al. \citep{7813710} sugerem que para o desenvolvimento web, deve-se manter a prática eficaz de produzir diagramas UML. A abordagem baseada na web oferece uma maneira fácil e eficaz para gerenciar e controlar o processo de desenvolvimento por meio de artefatos de modelagem. Tal abordagem pode ser usada quando há uma exigência de lidar com mudanças muito rápidas e grandes em requisitos de forma muito eficaz em muito menos tempo, gerando assim um menor impacto. 
-
-
-Para atender à fomentada demanda de aplicativos web, é necessário adotar métodos de desenvolvimentos que sejam ágeis, eficientes e de fácil manutenção. Yu Ping et al. \cite{1372143} propõem o uso do modelo MVC (Model, View e Controller) no desenvolvimento para softwares web. O modelo apresentado tornou-se um padrão popular e divide o software em camadas com propósito definido, tornando-o de mais fácil manutenção.
-
-
-O Ajax (Asynchronous Javascript and XML) revolucionou a web. Conforme demonstrado por Yuping \citep{6845605}, ao usar a tecnologia Ajax, podemos enriquecer a experiência do usuário em aplicações baseadas em navegador de internet, e fornecer uma variedade de aplicações interativas para atender às necessidade de humanização das aplicações.
+O Ajax (Asynchronous Javascript and XML) foi essencial para a evolução da web, sendo uma tecnologia indispensável para o advento da web 2.0. Conforme demonstrado por Yuping \citep{6845605}, ao usar a tecnologia Ajax, podemos enriquecer a experiência do usuário em aplicações baseadas em navegador de internet, e fornecer uma variedade de aplicações interativas para atender às necessidade de humanização das aplicações.
 Os aplicativos Ajax em execução no navegador se comunicam com um servidor Web de forma assíncrona e atualizam apenas uma parte da página.
 
 
-No artigo de Tesarik et al. \citep{4664349}, temos que o design de software SPA (Single page application) é uma maneira interessante de criar um software Web numa uma única página. Essa solução de página única sem navegação funciona apenas com base em técnicas dinâmicas e assíncronas, como o AJAX (citado no parágrafo anterior). No entanto, esta abordagem coloca o desenvolvedor antes de alguns desafios substanciais.
+De acordo com Tesarik et al. \citep{4664349}, a arquitetura de software SPA (Single page application) é uma forma de criar um software Web numa uma única página. Essa solução de página única sem navegação funciona apenas com base em técnicas dinâmicas e assíncronas, como o Ajax. No entanto, esta abordagem coloca o desenvolvedor antes de alguns desafios substanciais.
 Para projetar a interface do usuário que mostra as informações, é importante projetar corretamente a tela para manipular os dados do aplicativo numa única página. O design da página deve ser elaborado para maximizar a decomposição da página em componentes distintos que encapsulam os principais casos de uso.
-Também recomenda-se que para elaborar os artefatos visuais, explore os mais ricos recursos na implementação, como HTML5, JavaScript, Ajax, CSS3, e outras tecnologias que se apliquem. Entretanto, desenvolver uma rica interface com o uso de diversas tecnologias/frameworks pode ocasionar um esforço maior para explorar as possibilidades.
-Tais componentes da interface de uma aplicação SPA normalmente são alimentados mediante o consumo de uma API Rest via requisições AJAX. Assim, é possível particionar as responsabilidades de processamento do software entre cliente e servidor.
+Também é interessante que na elaboração dos artefatos visuais, sejam explorados os mais ricos recursos na implementação, como HTML5, JavaScript, Ajax, CSS3, e outras tecnologias que se apliquem. Entretanto, desenvolver uma interface rica com o uso de diversas tecnologias/frameworks pode ocasionar um esforço maior para explorar as possibilidades.
+Os componentes da interface de uma aplicação SPA normalmente são alimentados mediante o consumo de uma API REST via requisições AJAX. Assim, é possível particionar as responsabilidades de processamento do software entre cliente e servidor.
 
 
-Como é possível denotar no trabalho de Salvadori e Siqueire \citep{7195633}, REST é uma arquitetura muito popular para integração de aplicativos web, que permite compartilhar e reutilizar informações através de sistemas. Aplicações de grande escala baseadas em no REST deve ser implementadas utilizando estratégias e mecanismos para produzir sistemas que sejam fáceis de desenvolver, reutilizar e manter. As interfaces de integração fornecidas por esses sistemas, chamadas de Web API, têm uma influência importante nas características da implementação resultante, pois a sua forma de resposta deve ser casada com a interface que o consome.
+Segundo Salvadori e Siqueire \citep{7195633}, REST é uma arquitetura muito popular para integração de aplicativos Web, e permite compartilhar e reutilizar informações através de sistemas. Aplicações de grande escala baseadas em REST devem ser implementadas utilizando estratégias e mecanismos para produzir sistemas que sejam fáceis de desenvolver, reutilizar e manter. As interfaces de integração fornecidas por esses sistemas, chamadas de Web API, têm uma influência importante nas características da implementação resultante, pois a sua forma de resposta deve ser integrada com a interface que o consome.
  
  
-Os elementos comentados nessa seção encontram-se presentes neste trabalho de conclusão de curso. Juntos, montam a estrutura tecnológica necessária aliada à arquitetura adotada. Esses elementos seguem tendências atuais dos softwares web, fazendo com que esse trabalho esteja composto por tecnologias modernas que estão com boa aceitação no mercado.
+Os elementos comentados nessa seção encontram-se presentes neste trabalho de conclusão de curso. Juntos, montam a estrutura tecnológica necessária aliada à arquitetura adotada. Esses elementos seguem tendências atuais dos softwares Web, fazendo com que esse trabalho esteja composto por tecnologias modernas que estão com boa aceitação no mercado.
+
+
+\subsection{Tecnologias}\label{tecnologias}
+
+
+Dentro do contexto das aplicações Web, esta subseção evidencia as tecnologias que foram aplicadas ao desenvolvimento do ModMan.
+
+
+\subsubsection{Laravel framework}
+
+
+O Laravel é um framework PHP livre e open-source para o desenvolvimento de sistemas Web que utilizam o padrão MVC (model, view, controller). O Laravel foi desenvolvido sob o MIT License, com o código-fonte hospedado no GitHub. Em Agosto de 2015, o Laravel já era o principal framework de projetos PHP no GitHub. 
+
+
+Algumas características proeminentes do Laravel são sua sintaxe simples e concisa, um sistema modular com gerenciador de dependências dedicado, várias formas de acesso a banco de dados relacionais e vários utilitários indispensáveis no auxílio ao desenvolvimento e manutenção de sistemas. Diante da popularidade do framework, tem-se uma grande comunidade, o que facilita a aprendizgem, pois facilmente encontram-se tutoriais. Inclusive, além da documentação, o próprio Laravel disponibiliza o Laracasts \footnote{https://laracasts.com/}, uma série de vídeos ensinando as mais diversas funcionalidades encontradas no Laravel.
+
+
+\subsubsection{AngularJs}
+
+
+AngularJS é um framework JavaScript open-source, mantido pelo Google, que auxilia na execução de SPA. O framework lê o HTML que contém tags especiais do framework e então executa a diretiva na qual esta tag pertence, além de fazer a ligação entre a apresentação e seu modelo, representado por variáveis JavaScript comuns. O framework adapta e estende o HTML tradicional para uma melhor experiência com conteúdo dinâmico, com a ligação direta e associação bidirecional dos dados \textit{(two-way data-binding)} que permite sincronização automática de models e views. Como resultado, AngularJS abstrai a manipulação do DOM e melhora os testes.
+
+
+\subsubsection{Bootstrap}
+
+
+Bootstrap é um framework front-end popular que facilita a criação de páginas Web com tecnologia responsiva, que se adapta corretamente às diferentes resoluções de tela. O Bootstrap possui diversos componentes (plugins) em JavaScript (jQuery) que auxiliam o desenvolvedor na implementação, como por exemplo: menu-dropdown, modal, carousel, slideshow, entre outros com facilidade, apenas acrescentando algumas configurações no código.
+
+
+
+
+\section{Resumo do capítulo}\label{sec:resumo}
+
+
+Este capítulo apresentou a abordagem teórica voltada para temas relacionados ao Modman. Isso é evidenciado pela busca na literatura por trabalhos que abordam os principais aspectos utilizados nesta monografia, como a efetividade do SaaS e possíveis vantagens e desvantagens da utilização do reuso e modularização dos softwares. O embasamento de referências literárias fornece maior segurança sobre a escolha dos elementos que compõem o trabalho.
+O mesmo embasamento também é apresentado em relação aos aspectos técnicos, discutindo trabalhos que analisam o comportamento de tecnologias atualmente empregadas no desenvolvimento de páginas Web e que foram adotadas para o desenvolvimento do Modman.
+

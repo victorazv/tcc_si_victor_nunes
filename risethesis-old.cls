@@ -237,7 +237,7 @@
 
 \def\universitypt#1{%
   \gdef\@universitypt{#1}}
-\def\@universitypt{Universidade Federal da Bahia}
+\def\@universitypt{Universidade Federal de Pernambuco}
 
 \def\universityen#1{%
   \gdef\@universityen{#1}}
@@ -351,8 +351,7 @@
 
 \gdef\@presentationtext{%
 \if\@language0
-Trabalho apresentado ao
-\if\@showdepartment1\@departmentpt\ \else\@institutept\ \fi
+Trabalho apresentado ao \if\@showdepartment1\@departmentpt\ \else\@institutept\ \fi
 da \@universitypt\ como requisito parcial para obtenção do
 grau de \@degree\ em \@majorfieldpt.
 \fi
@@ -383,8 +382,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
 \setlength{\evensidemargin}{0mm}
 \setlength{\marginparwidth}{0mm}
 \setlength{\marginparsep}{0mm}
-%\setlength{\textwidth}{\paperwidth-2.45in}
-\setlength{\textwidth}{\paperwidth-2in}
+\setlength{\textwidth}{\paperwidth-2.45in}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -434,8 +432,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
   \else
     {\fontfamily{times}\selectfont \tiny \@universityen\\}
   \fi
-  {\fontfamily{times}\selectfont \tiny ceapgmat@ufba.br\\}
-  {\fontfamily{times}\selectfont \tiny \url{wiki.dcc.ufba.br/PMCC/}\\}
+  {\fontfamily{times}\selectfont \tiny \url{wiki.dcc.ufba.br/DCC/}\\}
   \vskip\baselineskip
   \vskip\baselineskip
   \@address , \@date
